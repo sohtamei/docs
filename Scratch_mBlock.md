@@ -1,4 +1,6 @@
 ## スクラッチとmBlock、つくるっちについて
+[つくるっちについて](http://sohta02.web.fc2.com/familyday_about.html)
+
 つくるっちはMakeblock社のmBlock3を元に開発しました。その際スクラッチ2.0とmBlock3、スクラッチ3.0とmBlock5について調査を実施しました。下記の表は2018年ごろに調べた情報です。<br /><br />
 スクラッチはLEGO wedoやEV3など一部のHWにのみ対応し、arduinoには対応していません。Makeblock社はスクラッチ2.0とスクラッチ3.0を元にArduinoに対応したmBlock3とmBlock5を開発しました。mBlockは直感的で簡便なモニタモード(PC通信モード)と、本格的なプログラミングが可能な書き込みモード(Arduinoモード)に対応したすばらしいプログラミングアプリです。<br />
 ![scratch](images/scratch_mBlock.png)
