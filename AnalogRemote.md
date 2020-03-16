@@ -36,4 +36,4 @@ CH1, CH2, CH3それぞれで送信周期を変えることで、3つまでの赤
 
 ### 4. 使用例
 リモコンロボ、クアッドクローラー以外にもarduinoライブラリを使うことで、他のロボットでも使うことが出来ます。
-[mBot＋アナログリモコン](http://sohta02.web.fc2.com/images/MAQ04884.MP4) 
+[mBot＋アナログリモコン(動画)](http://sohta02.web.fc2.com/images/MAQ04884.MP4) 
