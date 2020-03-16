@@ -9,7 +9,7 @@
 | byte1 | 55 |
 | byte2 | length |
 | byte3 | command |
-| byte4~(2+length) | data(length-1) |
+| byte4~(2+length) | 引数(length-1) |
 
 ロボット→つくるっち プロトコル
 | | 内容 |
@@ -18,5 +18,5 @@
 | byte1 | 55 |
 | byte2 | length |
 | byte3 | type<br />1:byte<br />2:short<br />3:long<br />4:float<br />5:double<br />6:string<br />7:bytes |
-| byte4~(2+length) | data(length-1) |
+| byte4~(2+length) | 戻り値(length-1) |
 
