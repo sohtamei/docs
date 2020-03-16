@@ -6,7 +6,7 @@
 | bit14~13 | リモコンチャンネル | 01-Channel1<BR />10-Channel2<BR />00-Channel3 |
 | bit12~8 | ジョイスティック上下 | 11111-上<BR />10000-中立<BR />00000-下 | 
 | bit7~3 | ジョイスティック左右 | 11111-右<BR />10000-中立<BR />00000-左 | 
-| bit2~0 | キー | 001-CENTER<BR />010-UP<BR />011-RIGHT<BR />100-LEFT<BR />101-DOWN | 
+| bit2~0 | キー | 000-OFF<BR />001-CENTER<BR />010-UP<BR />011-RIGHT<BR />100-LEFT<BR />101-DOWN | 
 
 ### 2. エンコード、タイミング
 キャリア周波数 38kHz<BR />
