@@ -1,8 +1,9 @@
-## 拡張ブロック仕様
+## 拡張ブロック仕様 補足
+[拡張ブロック仕様](http://sohta02.web.fc2.com/familyday_extension.html)
 
 ![dd](http://sohta02.web.fc2.com/images/image621.png)
 
-つくるっち→ロボット プロトコル
+#### つくるっち→ロボット プロトコル
 | | 内容 |
 | ---- | ---- |
 | byte0 | FF |
@@ -11,7 +12,7 @@
 | byte3 | command |
 | byte4~(2+length) | 引数(length-1) |
 
-ロボット→つくるっち プロトコル
+#### ロボット→つくるっち プロトコル
 | | 内容 |
 | ---- | ---- |
 | byte0 | FF |
