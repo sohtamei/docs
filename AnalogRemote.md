@@ -44,15 +44,17 @@ CH1, CH2, CH3それぞれで送信周期を変えることで、3つまでの赤
 ### 4.使用例
 リモコンロボ、クアッドクローラー以外にもarduinoライブラリを使うことで、他のロボットでも使うことが出来ます。
 [mBot＋アナログリモコン(動画)](http://sohta02.web.fc2.com/images/MAQ04884.MP4)  
-ぜひアナログリモコンであなたのロボットを操縦してみて下さい。アナログリモコンを使う場合下記の制約があります。
+
+ぜひアナログリモコンであなたのロボットを操縦してみて下さい。Arduinoライブラリは「つくるっち」アプリの ext/arduinoLib にあります。  
+[「つくるっち」ダウンロード＆説明](http://sohta02.web.fc2.com/familyday_app.html)
+
+アナログリモコンを使う場合下記の制約があります。
 - 赤外線リモコン入力＝D2 (INT0)
 - Timer0使用 (250kHz,8bit = 977Hz)
 - Atmega328pのみ対応
 
 [リモコンロボ回路図](http://sohta02.web.fc2.com/release/2018FD.190603.pdf)  
 ![remote3](images/remoteA3.png)  
-Arduinoライブラリは「つくるっち」アプリの ext/arduinoLib にあります。  
-[「つくるっち」ダウンロード＆説明](http://sohta02.web.fc2.com/familyday_app.html)
 
 ### 5.UART通信プロトコル
 リモコン通信は特殊なプロトコルを使っています。
