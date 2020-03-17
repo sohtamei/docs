@@ -49,9 +49,9 @@ CH1, CH2, CH3それぞれで送信周期を変えることで、3つまでの赤
 [「つくるっち」ダウンロード＆説明](http://sohta02.web.fc2.com/familyday_app.html)
 
 アナログリモコンを使う場合下記の制約があります。
+- Atmega328pのみ対応
 - 赤外線リモコン入力＝D2 (INT0)
 - Timer0使用 (250kHz,8bit = 977Hz)
-- Atmega328pのみ対応
 
 [リモコンロボ回路図](http://sohta02.web.fc2.com/release/2018FD.190603.pdf)  
 ![remote3](images/remoteA3.png)  
