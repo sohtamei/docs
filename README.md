@@ -1,5 +1,5 @@
 ## つくるっち / リモコンロボ 技術情報
-[アナログリモコンプロトコル](AnalogRemote.md)
+[アナログリモコンライブラリ](../../../analogRemote)
 
 [クラッチとmBlock、つくるっちについて](Scratch_mBlock.md)
 
