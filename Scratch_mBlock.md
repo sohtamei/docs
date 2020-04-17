@@ -28,7 +28,7 @@ https://www.mblock.cc/doc/en/mblock3/mblock3-vs-mblock5.html
 
 実際にリモコンロボ用の「mBlock5拡張デバイス」作成に挑戦してみたのですが、node.jsのライブラリを１から実装する必要があり時間の都合からまだ完了していません。（拡張デバイス作成用のポータルサイトは素晴らしい！のですが。。） まだ完了してないため正確ではないのですが、つくるっち/mBlock5それぞれで拡張デバイスを作成したときの比較です。
 
-| |つくるっち|mBlock5|
+| |つくるっち|mBlock5(拡張デバイス)|
 |:--|:--:|:--:|
 |対応OS|Win|Win/MAC|
 |接続I/F|USB|USB/BLE|
@@ -38,6 +38,8 @@ https://www.mblock.cc/doc/en/mblock3/mblock3-vs-mblock5.html
 |その他||公開申請すると公式mBlock5アプリ上に表示される|
 
 - mBlock5 appはandroid,iOS対応しているが自作デバイスは非対応。3rdParty製デバイスも存在しない (2020/4現在)  
-- node.jsライブラリ（実装たいへん） - mBot:exts/common/sensorium、arduinoUno:https://mblock-expanded.oss-cn-shenzhen.aliyuncs.com/015e089251944dd28644bb5aaf266b15.js  
+- node.jsライブラリ（実装たいへん）
+    - mBot: exts/common/sensorium
+    - arduinoUno: https://mblock-expanded.oss-cn-shenzhen.aliyuncs.com/015e089251944dd28644bb5aaf266b15.js  
 - インストールされた拡張デバイス・extensionは C:\Users\xx\mblock\exts に保存される。各フォルダをzip圧縮し拡張子mextにするとmBlock5ポータルサイトで読み込むことができる。拡張デバイスのサンプルが無いためこの方法でサンプルを作る必要がある。  
 
