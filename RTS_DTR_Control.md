@@ -8,5 +8,5 @@
 |EN端子| |(DTR=L,RTS=H)でL| |
 |BOOTモード|RESET直後に<br />特定のコマンドを送信|EN端子=LでRESET<br />(DTR=H->L, RTS=L->H)|1200bpsでUART接続|
 |Bootloader書き込み|できない|できる|？|
-|Teraterm<br />DTR=H->L, RTS=H->L|接続時RESET|切断時RESET `※PC依存ありそう`|なし|
-|つくるっち<br />DTR=H->L, RTS=H固定|接続時RESET|なし(切断時ソフトRESET)<br />`※接続中のRESETボタンで`<br />`BOOTモードになる`|なし(切断時ソフトRESET)|
+|Teraterm<br />接続=(DTR=H->L,RTS=H->L)|接続時RESET|切断時RESET `※PC依存ありそう`|なし|
+|つくるっち<br />接続=(DTR=H->L,RTS=H固定)|接続時RESET|なし(切断時ソフトRESET)<br />`※接続中のRESETボタンで`<br />`BOOTモードになる`|なし(切断時ソフトRESET)|
