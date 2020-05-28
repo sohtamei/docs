@@ -3,7 +3,7 @@
 
 | |ATmega328p|ESP32|Koov/SAMD|
 |---|---|---|---|
-|I/F|3線式 (RxD,TxD,DTR)|4線式 (RxD,TxD,DTR,RTS)|2線式? (RxD,RxD)|
+|I/F|3線式 (RxD,TxD,DTR)|4線式 (RxD,TxD,DTR,RTS)|2線式? (RxD,RxD)<br />マイコン内蔵|
 |RESET端子|DTRがC経由で接続,<br />DTR=H->Lの瞬間L|(DTR=H,RTS=L)でL, Cで遅延| |
 |EN端子| |(DTR=L,RTS=H)でL| |
 |BOOTモード|RESET直後に<br />特定のコマンドを送信|EN端子=LでRESET|1200bpsでUART接続|
