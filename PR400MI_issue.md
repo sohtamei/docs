@@ -12,6 +12,6 @@ PR-400MI/RT-400MI/RV-440MI の設定変更・ソフト更新やESP32側のFW変�
 
 ### 不具合詳細
 ESP32ネットワーク接続からPR-400MI再起動までのネットワークのログです、ESP32が緑、PR-400MIが黄色です。
-<img src="images/RouterReboot.png" title="attach:cat" width="846" height="265">  
+<img src="images/RouterReboot.png" width="846" height="265">  
 ESP32側のパケットに異常は見られませんでした。  
 (2020/5/30)
