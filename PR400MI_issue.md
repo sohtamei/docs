@@ -7,7 +7,7 @@ PR-400MI/RT-400MI/RV-440MI の設定変更・ソフト更新やESP32側のFW変�
 
 ### ルーター確認方法
 ご利用の光ルーターの機種を確認するには写真の赤枠部分を確認して下さい。  
-<img src="images/PR-400MI.jpg" width="114" height="400">
+<img src="images/PR-400MI.jpg" width="114" height="400">  
 この不具合はPR-400MIの最新ファームウェアで確認しました。
 
 ### 不具合詳細
