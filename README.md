@@ -1,7 +1,11 @@
 ## つくるっち / リモコンロボ 技術情報
+[M5Stack, M5StickC プログラミング情報](M5.md)
+
+[Koov プログラミング情報](Koov.md)
+
 [アナログリモコンライブラリ仕様](../../../analogRemote)
 
-[クラッチとmBlock、つくるっちについて](Scratch_mBlock.md)
+[スクラッチとmBlock、つくるっちについて](Scratch_mBlock.md)
 
 [拡張ブロック仕様 補足](extension.md)
 
