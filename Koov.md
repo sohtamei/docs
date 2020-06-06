@@ -1,7 +1,9 @@
 ## Koovプログラミング情報
 
 つくるっち＋Koovでのプログラミングに対応しました。リモコンロボ同様 BitTradeOne社の「汎用赤外線リモコン」、「アナログリモコン」でロボットを操縦することができます。  
-**公式アプリではなく、まだ多数不具合があります。注意して下さい。**
+**公式アプリではなく、まだ多数不具合があります。注意して下さい。**  
+<a href="http://sohta02.web.fc2.com/images/MAQ04939_.mp4"><img src="images/MAQ04939_.png" width="320" height="240" border="0" /></a>クリックで再生  
+![image7](images/image7.png)
 
 ### 必要なもの
 - Artec社の「[ロボット用赤外線リモコン受信センサー](https://www.amazon.co.jp/dp/B00VFZ0NX8)」
