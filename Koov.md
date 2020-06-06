@@ -6,6 +6,11 @@ Windowsのみ対応(MAC, iPad非対応)、USB接続のみ対応(BLE,Wifi接続�
 <a href="http://sohta02.web.fc2.com/images/MAQ04939_.mp4"><img src="images/MAQ04939_.png" width="320" height="240" border="0" /></a> クリックで再生  
 ![image7](images/image7.png)
 
+### ダウンロード (つくるっち Koov版)
+
+http://sohta02.sakura.ne.jp/release/TuKuRutch.20200605.esp.zip  
+インストール手順とアプリの使い方は [「つくるっち通常版」](http://sohta02.web.fc2.com/familyday_app.html#download) を参照して下さい。
+
 ### サンプルプログラム
 つくるっちで [ロボット] - [Koov] を選択し、[プログラム] - [開く] で選択して下さい。
 - アナログリモコン.sb2
