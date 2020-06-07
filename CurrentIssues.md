@@ -21,4 +21,4 @@
 - (ESP32版) [NTTルーター PR-400MI問題](PR400MI_issue.md)
 - (ESP32版) C:￥以外で展開するとパスエラーになる
 - (ESP32版) [USB接続でつくるっち接続中に本体RESETするとESP32がBOOTモードになる](RTS_DTR_Control.md)
-
+- (ESP32版) Arduino IDEが起動しているとWifiでデバイス検出できない
