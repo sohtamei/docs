@@ -12,4 +12,4 @@
 |つくるっち<br />接続=(DTR=H->L,RTS=H固定)|接続時RESET|なし(切断時ソフトRESET)<br />`※接続中のRESETボタンで`<br />`BOOTモードになる`|なし(切断時ソフトRESET)|
 
 DevkitCの回路図より  
-[image8](images/image8.png)  
+![image8](images/image8.png)  
