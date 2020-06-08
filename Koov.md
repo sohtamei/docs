@@ -9,7 +9,7 @@ Windowsのみ対応(MAC, iPad非対応)、USB接続のみ対応(BLE,Wifi接続�
 ### ダウンロード (つくるっち Koov版)
 
 下記リンクをクリックしてダウンロードして下さい。**zipファイル約600MB、展開すると約1.4GBになります。** パソコンの空き容量に注意して下さい。スマフォでダウンロードしないで下さい。
-http://sohta02.sakura.ne.jp/release/TuKuRutch.20200605.esp.zip  
+http://sohta02.sakura.ne.jp/release/TuKuRutch.20200605.koov.zip  
 インストール手順とアプリの使い方は [「つくるっち通常版」](http://sohta02.web.fc2.com/familyday_app.html#download) を参照して下さい。
 
 ### サンプルプログラム
