@@ -36,7 +36,6 @@ http://sohta02.sakura.ne.jp/release/TuKuRutch.20200605.koov.zip
 - [接続] - [ロボットに接続(COM ..)]
 - [接続] - [ロボットをPC通信モードに設定]
 - ブロック [プログラム開始] をクリック
-- 「」
 
 ### 使い方（Arduinoモード）
 - ロボットの電源を入れUSBで接続し、
