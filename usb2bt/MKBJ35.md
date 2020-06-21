@@ -24,4 +24,6 @@ androidと古いiosの場合、下記手順によりMKBJ24/MKBJ35を使用する
 2. MKBJ24/MKBJ35とUSB2BTp接続後いったんWindows10にBluetooth接続し、スマフォに戻す<br />(MKBJ24/MKBJ35とUSB2BTpの電源をOFF/ONするごとに実施する必要があります)
 <img src="http://sohta02.web.fc2.com/images/image84.jpg" width="477" height="289" border="0" />  
 
+### [USB2BTサポートサイト](http://sohta02.web.fc2.com/usb2bt.html)
+
 2020/6/21
