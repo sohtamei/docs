@@ -68,5 +68,5 @@ http://sohta02.sakura.ne.jp/tukurutch/internalapi/asset/f5cf1fc58bbc69bf8dd47f90
 http://sohta02.sakura.ne.jp/tukurutch/#412506341
 
 **実行環境設定**  
-assetHost: 'http://sohta02.sakura.ne.jp/tukurutch',
-projectHost: 'http://sohta02.sakura.ne.jp/tukurutch/internalapi'
+assetHost: 'http://sohta02.sakura.ne.jp/tukurutch',  
+projectHost: 'http://sohta02.sakura.ne.jp/tukurutch/internalapi'  
