@@ -13,10 +13,12 @@
 
 ### 解決方法
 - scratch3.0ではsb3を読み込むときあらかじめサーバー上でzip展開＆ファイル名変更 (project.json→9桁projectID) しておく必要がある。  
-　参照先サーバーはデフォルトでscratch.mit.eduになっている。  
+参照先サーバーはデフォルトでscratch.mit.eduになっている。  
 - 独自extを使ったsb3はscratch.mit.eduには置けないため自分のサーバーで公開する必要がある。  
-　またその場合scratch実行環境の設定(プログラム参照先)をscratch.mit.edu→自分のサーバーに変更しておく必要がある  
-- サンプルのリンク方法は＜自分のscratch実行環境＞/#＜9桁projectID＞  
+またその場合scratch実行環境の設定(プログラム参照先)をscratch.mit.edu→自分のサーバーに変更しておく必要がある  
+- サンプルのリンク方法は  
+editor : ＜自分のscratch実行環境＞/#＜9桁projectID＞  
+player : ＜自分のscratch実行環境＞/player.html#＜9桁projectID＞  
 
 以下詳細
 
