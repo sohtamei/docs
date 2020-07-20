@@ -1,5 +1,5 @@
 ## 拡張ブロック仕様 補足
-[拡張ブロック仕様](http://sohta02.web.fc2.com/familyday_extension.html)
+[拡張ブロック仕様](http://sohta02.web.fc2.com/familyday_extension.html) の補足です。
 
 ![dd](http://sohta02.web.fc2.com/images/image621.png)
 
