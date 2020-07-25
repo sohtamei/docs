@@ -15,6 +15,8 @@
 
 [つくるっち現時点の不具合](CurrentIssues.md)
 
+[Scratch3.0で独自extensionを使ったサンプルプログラムをリンククリックで開く方法](Scratch3.0LinkToSample.md)
+
 ----
 
 [そーたメイ サイト](http://sohta02.web.fc2.com/familyday.html)
