@@ -72,3 +72,10 @@ http://sohta02.sakura.ne.jp/tukurutch/#412506341
 **実行環境設定**  
 assetHost: 'http://sohta02.sakura.ne.jp/tukurutch',  
 projectHost: 'http://sohta02.sakura.ne.jp/tukurutch/internalapi'  
+
+### 備考
+> - 独自extを使ったsb3はscratch.mit.eduには置けないため自分のサーバーで公開する必要がある。  
+
+scratchの規定4.4に「 "a modified version of the Scratch editor" で作成されたprojectはscratchサーバーにupできない」と規定されています。上記制約はこの規定と関連があるかもしれません。    
+https://scratch.mit.edu/terms_of_use  
+4.4 You may only submit user-generated projects that were created with (1) the Scratch website editor or (2) an unmodified copy of the Scratch editor compiled from the source code described in Section 5.3. You may not upload any projects that were created, by you or by anyone else, with a modified version of the Scratch editor.  
