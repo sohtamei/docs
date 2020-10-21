@@ -1,13 +1,14 @@
-## 360度サーボ問題について
+## 360度サーボFS90R問題について
 
 M5CameraCarでは360度サーボFS90Rを使っています。  
 FS90Rは仕様上の問題があり、M5CameraCarでの対処方法と限界についてメモさせて頂きます。
 
-[FS90R仕様書](https://akizukidenshi.com/download/ds/feetech/fs90r.pdf)
-
 #### 問題１．回転数0%から50%までのPWMの調節範囲が約0.06ms (±12step/4096) しかない。
 
-PWM周期=20ms、分解能4096とした場合下記の通り。調整範囲全体のうち実際に回転数調整に使える調整範囲はごく一部。
+PWM周期=20ms、分解能4096とした場合下記の通り。調整範囲全体のうち実際に回転数調整に使える調整範囲はごく一部。  
+
+[FS90R仕様書](https://akizukidenshi.com/download/ds/feetech/fs90r.pdf)
+
 
 | 周期 | PWM設定値 | PWMオフセット | モーター回転 |
 | ---- | ---- | ---- | ---- |
@@ -15,15 +16,15 @@ PWM周期=20ms、分解能4096とした場合下記の通り。調整範囲全�
 | 1.41ms | 289 | -18 | 逆回転50% |
 | 1.47ms | 301 | -6 | 逆回転0% |
 | 1.5ms | 307 | ±0 | 停止 |
-| 1.53ms | 313 | **+6** | 正回転0% |
-| 1.59ms | 325 | **+18** | 正回転50% |
+| 1.53ms | 313 | <font color="#ff0000">+6</font> | 正回転0% |
+| 1.59ms | 325 | <font color="#ff0000">+18</font> | 正回転50% |
 | 2.3ms | 471 | +163 | 正回転100% |
 
-![image](https://user-images.githubusercontent.com/43091864/96735072-21824480-13f6-11eb-8c60-303103b674ad.png)
+![image](https://user-images.githubusercontent.com/43091864/96739940-4e852600-13fb-11eb-8d22-d41757b14a31.png)
 
 #### 問題２．サーボの発熱でPWMの設定値が+5setp程度ずれる
 
-回転数Left=50%(+18step), Right=50%(-18step)のとき発熱によりLeft=61%(+23step), Right=32%(-13step)までずれる。
+回転数Left=50%(+18step), Right=50%(-18step)のとき同じPWM設定値で発熱によりLeft=32%(+13step相当), Right=61%(-23step相当)までずれる。
 
 #### 対処方法と限界
 
