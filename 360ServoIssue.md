@@ -5,9 +5,9 @@ FS90Rは仕様上の問題があり、M5CameraCarでの対処方法と限界に�
 
 #### 問題１．回転数0%から50%までのPWMの調節範囲が約0.06ms (±12step/4096) しかない。
 
-PWM周期=20ms、分解能4096とした場合PWM設定値とサーボ回転数の関係は下記の通り。調整範囲全体のうち実際に回転数調整に使える調整範囲はごく一部。  
+PWM周期=20ms、分解能4096とした場合PWM設定値とサーボ回転数の関係は下記の通り。調整範囲0.7~2.3msのうち実際に回転数調整に使える調整範囲はごく一部。  
 
-[FS90R仕様書](https://akizukidenshi.com/download/ds/feetech/fs90r.pdf)
+![image](https://user-images.githubusercontent.com/43091864/96787698-2adad380-142d-11eb-9929-3273f3b3aca6.png)
 
 
 | 周期 | PWM設定値 | PWM設定オフセット | モーター回転 |
