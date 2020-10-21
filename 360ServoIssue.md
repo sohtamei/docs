@@ -34,4 +34,4 @@ PWM周期=20ms、分解能4096とした場合PWM設定値とサーボ回転数�
 
 - 50%以下の回転数では直進するよう調整できないため前進方向の回転数は±100%, ±50%の2段階しか設定できません。左右の方向調整は細かく調整できます。
 
-<video src="https://sohta02.web.fc2.com/images/MAH05213s.mp4" width="445" height="540" controls></video>
+<video src="https://sohta02.web.fc2.com/images/MAH05213s.mp4" width="594" height="540" controls></video>
