@@ -17,6 +17,8 @@
 
 [Scratch3.0で独自extensionを使ったサンプルプログラムをリンククリックで開く方法](Scratch3.0LinkToSample.md)
 
+[360度サーボFS90R問題について](360ServoIssue.md)
+
 ----
 
 [そーたメイ サイト](http://sohta02.web.fc2.com/familyday.html)
