@@ -2,7 +2,7 @@
 
 [拡張ブロック作成](http://sohta02.web.fc2.com/familyday_extension.html) の補足です。
 
-![dd](http://sohta02.web.fc2.com/images/image621.png)
+![dd](images/image621.png)
 
 #### つくるっち→ロボット プロトコル  
 
