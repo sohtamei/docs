@@ -10,6 +10,7 @@
 |Bootloader書き込み|できない|できる|？|
 |Teraterm<br />接続=(DTR=H->L,RTS=H->L)|接続時RESET|切断時RESET `※PC依存ありそう`|なし|
 |つくるっち<br />接続=(DTR=H->L,RTS=H固定)|接続時RESET|なし(切断時ソフトRESET)<br />`※接続中のRESETボタンで`<br />`BOOTモードになる`|なし(切断時ソフトRESET)|
+|serialWeb<br />接続=(DTR=H->L,RTS=H->L)|接続時RESET|なし| - |
 
 DevkitCの回路図より  
 ![image8](images/image8.png)  
