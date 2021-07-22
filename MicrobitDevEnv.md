@@ -16,11 +16,11 @@ BLE関連のライブラリは充実しているがUARTやI2Cなどのライブ�
 https://tech.microbit.org/software/runtime/
 
 ### microbit用Arduino環境
-microbitV2はnRF52833を搭載、現時点ではマイナーで(通常はnRF52840)、非対応の開発環境が多い。
+microbitV2はNordic社nRF52833を搭載、現時点ではマイナーで(通常はnRF52840)、非対応の開発環境が多い。
 - **nordicライブラリ**  
 nordicがかなり以前にリリースしたArduinoライブラリ、更新されていない。sandeepmistryはこれをベースとしているようです。
 - **sandeepmistry**  
-microbit用Arduino環境として一般的な環境。Sandeep氏が個人で実装されているようです。  
+nRF51,nRF52用として一般的なArduino環境。Sandeep氏が個人で実装されているようです。  
 [arduino-nRF5](https://github.com/sandeepmistry/arduino-nRF5)　nRF用Board環境。nRF51とnRF52に対応、microbitV2(nRF52833)はSoftDevice非対応。  
 [arduino-BLEPeripheral](https://github.com/sandeepmistry/arduino-BLEPeripheral)　nRF用BLEライブラリ。nRF51のみ対応。  
 - **vladkozlov69**  
@@ -43,13 +43,3 @@ portable/packages/sandeepmistry/hardware/nRF5/0.7.0
 非常にまとまっています、つくるっちのmicrobitFWはDeko氏のLEDライブラリを使用しています。
 - https://learn.adafruit.com/use-micro-bit-with-arduino
 
-### 数分でUSB/UART通信固まる
-原因を探るとUSB/UART処理をしているmicro:bitのDAPLinkが固まっている、固まった状態でもnordicはUARTのRX&TXしている。UART portを閉じて開くと復活する。
-- baudrate 115200でNG、公式でOKとなっている9600もNG
-https://tech.microbit.org/software/daplink-interface/
-- DAPLink 推奨ver253でNG, 最新ver254でNG
-- Win10環境のみ確認。ドライバはOS標準のUSB CDC。アプリはchrome(webSerial)とSerialDebuggerで確認。
-USB/UART接続はBLE接続と比較してPC側の相性問題や多人数のworkshopでの接続性でメリットがあるため、つくるっちではmicro:bitでのUSB/UART接続とBLE接続の両対応を目指していました。
-もしmicro:bitのDAPLinkによるUSB/UART通信について何か情報や、実際にガンガン使いこなしている例をご存じでしたらぜひご教示いただけないでしょうか。上記動画のように500msから200ms周期でのUART通信が必要です。
-
-結局のところ「UART接続についてはPC依存あり」ということになりそうです。もしかすると「USBドライブの取り外し」でも対処可能かもしれません。
