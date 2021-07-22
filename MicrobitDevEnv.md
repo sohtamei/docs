@@ -5,7 +5,7 @@
 - **Makecode/pxt** (Javascript)  
 hexにJavascriptソースコードを保存するため、コードサイズ面ではpython環境より厳しそう。
 - **Lancaster CODAL** (C言語)  
-nordicSDKをベースとした無償のライブラリ。使い方が良く分かりませんでした。。
+nordicSDKをベースとした無償の開発環境＆ライブラリ。使い方が良く分かりませんでした。。
 - **python環境** (Mu&microbit公式)  
 microbit v1だと600行以上で「there is no storage space left」になる。
 - **mbed** (C言語)  
