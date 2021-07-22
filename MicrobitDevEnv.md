@@ -8,7 +8,7 @@ hexにJavascriptソースコードを保存するため、コードサイズ面�
 nordicSDKをベースとした無償のライブラリ。使い方が良く分かりませんでした。。
 - **python環境** (Mu&microbit公式)  
 microbit v1だと600行以上で「there is no storage space left」になる。
-- **mbed**(C言語)  
+- **mbed** (C言語)  
 microbit v2非対応。
 - **nordic SDK** (C言語)  
 BLE関連のライブラリは充実しているがUARTやI2Cなどのライブラリを使うのが大変。Keil uVisionなど有償の開発環境＋ICE＋ライブラリを使うのが一般的のよう。
@@ -32,14 +32,15 @@ microbitV2(nRF52833)に対応。arduino-nRF5はsandeepmistryを拡張、arduino-
 [arduino-BLEPeripheral](https://github.com/sohtamei/arduino-BLEPeripheral)  
 
 ### セットアップ方法
-- sandeepmistryのboardmanagerで一式をインストール  
+私の環境でまだボードマネージャ対応していないため、
+1. sandeepmistryのboardmanagerでmicrobit一式をインストール  
 https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json
-- 私のarduino-nRF5をdownload - zip、zip展開してArduinoの下記フォルダに上書きコピー  
+2. [arduino-nRF5](https://github.com/sohtamei/arduino-nRF5)をdownload-zip、zip展開してArduinoの下記フォルダに上書きコピー  
 portable/packages/sandeepmistry/hardware/nRF5/0.7.0
-- 私のarduino-BLEPeripheralをzipでライブラリ追加  
+3. [arduino-BLEPeripheral](https://github.com/sohtamei/arduino-BLEPeripheral)をdownload-zipしてライブラリ追加  
 
 ### microbit用ArduinoIDE情報
 - [Deko氏サイト](https://ht-deko.com/arduino/microbit.html)  
 非常にまとまっています、つくるっちのmicrobitFWはDeko氏のLEDライブラリを使用しています。
-- https://learn.adafruit.com/use-micro-bit-with-arduino
+- [adafruit](https://learn.adafruit.com/use-micro-bit-with-arduino)
 
