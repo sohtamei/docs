@@ -1,4 +1,4 @@
-## microbit開発環境について(C言語、他）
+## microbit開発環境について(ArduinoIDE、他）
 
 ### 開発環境比較
 つくるっち開発用にいくつかのmicrobit開発環境を試してみました。
@@ -31,7 +31,7 @@ microbitV2(nRF52833)に対応。arduino-nRF5はsandeepmistryを拡張、arduino-
 [arduino-nRF5](https://github.com/sohtamei/arduino-nRF5)  
 [arduino-BLEPeripheral](https://github.com/sohtamei/arduino-BLEPeripheral)  
 
-### セットアップ方法
+### microbitV2用ArduinoIDE環境セットアップ方法
 私の環境でまだボードマネージャ対応していないため、
 1. sandeepmistryのboardmanagerでmicrobit一式をインストール  
 https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json
