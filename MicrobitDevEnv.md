@@ -7,7 +7,7 @@ hexにJavascriptソースコードを保存するため、コードサイズ面�
 - **Lancaster CODAL** (C言語)  
 nordicSDKをベースとした無償の開発環境＆ライブラリ。使い方が良く分かりませんでした。。
 - **python環境** (Mu&microbit公式)  
-microbit v1だと600行以上で「there is no storage space left」になる。
+microbit v1だと600行以上で「there is no storage space left」になる、本格的なプログラミングは厳しそう。
 - **mbed** (C言語)  
 microbit v2非対応。
 - **nordic SDK** (C言語)  
