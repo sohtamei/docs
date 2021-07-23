@@ -34,7 +34,7 @@ microbitV2(nRF52833)に対応。arduino-nRF5はsandeepmistryを拡張、arduino-
 
 ### microbitV2用ArduinoIDE環境セットアップ方法
 私の環境でまだボードマネージャ対応していないため、まずsandeepmistryのjsonファイルでツールをインストールする必要があります。
-1. sandeepmistryのboardmanagerでmicrobit一式をインストール  
+1. sandeepmistryのboardmanager用定義ファイルでmicrobitライブラリ一式をインストール  
 https://sandeepmistry.github.io/arduino-nRF5/package_nRF5_boards_index.json
 2. [arduino-nRF5](https://github.com/sohtamei/arduino-nRF5)をdownload-zip、zip展開してArduinoの下記フォルダに上書きコピー  
 portable/packages/sandeepmistry/hardware/nRF5/0.7.0
