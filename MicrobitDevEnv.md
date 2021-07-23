@@ -2,16 +2,17 @@
 
 ### 開発環境比較
 つくるっち開発用にいくつかのmicrobit開発環境を試してみました。
-- **Makecode/pxt** (Javascript)  
-hexにJavascriptソースコードを保存するため、コードサイズ面ではpython環境より厳しそう。
+- **Makecode/pxt** (Javascript/python)  
+microbitのデファクトの開発環境。非常に多くの拡張機能があり、市販の周辺デバイスも多い。独自の "Radio" でmicrobit同士の無線通信が可能、スマフォやPCとの無線通信は出来ない(Bluetoothでのプログラムの書きこみは対応)  
+拡張機能 - Bluetoothを選択することでBLE方式によるスマフォやPCとの無線通信が可能。SoftDeviceやその他BLE用のライブラリを書き込む必要があるため、microbitV1ではコードサイズ面で厳しそう。
 - **Lancaster CODAL** (C言語)  
 nordicSDKをベースとした無償の開発環境＆ライブラリ。使い方が良く分かりませんでした。。
 - **python環境** (Mu&microbit公式)  
 microbit v1だと600行以上で「there is no storage space left」になる、本格的なプログラミングは厳しそう。
 - **mbed** (C言語)  
-microbit v2非対応。
+C言語では一番使いやすくライブラリも充実した開発環境。microbit v2非対応。
 - **nordic SDK** (C言語)  
-BLE関連のライブラリは充実しているがUARTやI2Cなどのライブラリを使うのが大変。Keil uVisionなど有償の開発環境＋ICE＋ライブラリを使うのが一般的のよう。
+BLE関連のライブラリは充実しているがUARTやI2Cなどのライブラリを自作する必要がある？ 使うのが大変。Keil uVisionなど有償の統合開発環境（ICE、ライブラリ）を使うのが一般的のよう。
 <img src="https://tech.microbit.org/docs/software/assets/software-overview.svg" width="300" />
 https://tech.microbit.org/software/runtime/
 
