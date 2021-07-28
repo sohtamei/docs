@@ -3,6 +3,8 @@
 
 [microbit開発環境について(ArduinoIDE、他）](MicrobitDevEnv.md)
 
+[アナログリモコン ライブラリ](https://github.com/sohtamei/analogRemote)
+
 [M5Stack, M5StickC プログラミング情報](M5.md)
 
 [Koov プログラミング情報](Koov.md)
