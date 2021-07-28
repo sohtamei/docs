@@ -7,8 +7,6 @@
 
 [Koov プログラミング情報](Koov.md)
 
-[アナログリモコンライブラリ仕様](https://github.com/sohtamei/analogRemote)
-
 [スクラッチとmBlock、つくるっちについて](Scratch_mBlock.md)
 
 [拡張ブロック仕様 補足](extension.md)
