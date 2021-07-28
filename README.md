@@ -23,6 +23,10 @@
 
 [360度サーボFS90R問題について](360ServoIssue.md)
 
+## USB2BTサポート情報
+
+[USB2BTサポート情報](usb2bt/README.md)
+
 ----
 
 [そーたメイ サイト](http://sohta02.web.fc2.com/familyday.html)
