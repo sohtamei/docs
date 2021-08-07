@@ -1,6 +1,4 @@
 ## つくるっち / リモコンロボ 技術情報
-[Blynk/つくるっち比較](Blink.md)
-
 [microbit開発環境について(ArduinoIDE、他）](MicrobitDevEnv.md)
 
 [アナログリモコン ライブラリ](https://github.com/sohtamei/analogRemote)
