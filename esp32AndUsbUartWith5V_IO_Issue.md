@@ -22,7 +22,7 @@
 * 上記の結果ESP32のEN、IO0、RXに常に4V以上の電圧が加えられている状態となり、ESP32の絶対最大定格Vcc+0.3=3.6Vを上回る状態となる。ただしこれにより電気的に壊れた例はまだ見つかっていない。
 * 様々な検討の結果IO0=4V以上によりWiFi不安定になる可能性が高い。
    * ESP32コミュニティでWiFiエラーログが表示され、通信が不安定になる問題が報告される  
-    https://github.com/espressif/arduino-esp32/issues/2144  
+    ![https://github.com/espressif/arduino-esp32/issues/2144](https://github.com/espressif/arduino-esp32/issues/2144)  
     ※このエラーログは通常のFWでは表示されません、DebugLevel=Verpose等のFWを書き込む必要があります。
    * 上記問題はIO0=4V以上のとき発生し、IO0=3.3Vにすると発生しなくなることが確認される。
    * ESP32のIO0はADC2_1とのpinmuxになっており、ADC2はWiFi機能の一部として使用される。IO0の出力段の電気回路により4V以上の高電圧がADC2に流れ込み、WiFi機能に何らかの影響を及ぼしている可能性がある。
