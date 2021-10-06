@@ -52,3 +52,5 @@ https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_i
 
 * 基板上で抵抗追加（そーたメイ案、Wemos D1 R32）  
 https://github.com/espressif/arduino-esp32/issues/2144#issuecomment-657672609
+
+元リンク：https://www.facebook.com/groups/154504605228235/permalink/699719300706760/
