@@ -22,7 +22,7 @@
 * 上記の結果ESP32のEN、IO0、RXに常に4V以上の電圧が加えられている状態となり、ESP32の絶対最大定格Vcc+0.3=3.6Vを上回る状態となる。ただしこれにより電気的に壊れた例はまだ見つかっていない。
 * 様々な検討の結果IO0=4V以上によりWiFi不安定になる可能性が高い。
    * ESP32コミュニティでWiFiエラーログが表示され、通信が不安定になる問題が報告される  
-    ![https://github.com/espressif/arduino-esp32/issues/2144](https://github.com/espressif/arduino-esp32/issues/2144)  
+    [https://github.com/espressif/arduino-esp32/issues/2144](https://github.com/espressif/arduino-esp32/issues/2144)  
     ※このエラーログは通常のFWでは表示されません、DebugLevel=Verpose等のFWを書き込む必要があります。
    * 上記問題はIO0=4V以上のとき発生し、IO0=3.3Vにすると発生しなくなることが確認される。
    * ESP32のIO0はADC2_1とのpinmuxになっており、ADC2はWiFi機能の一部として使用される。IO0の出力段の電気回路により4V以上の高電圧がADC2に流れ込み、WiFi機能に何らかの影響を及ぼしている可能性がある。
@@ -41,16 +41,18 @@
 > 1. 裏面ヘッダピンの3.3Vから3.3V供給  
 > 2. GROVE VCCから3.3V供給  
 > 推奨方法ではないですが、どちらも「PLEN:bit用M5ATOM変換基板」で実績(?) があります。ただ逆流防止の機能は無いため、USB-C端子でのPCやUSB電源への接続と、上記の3.3V供給は必ず排他（一方を繋ぐときはもう一方を外す）で扱う必要があります。  
-https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944&reply_comment_id=812782789400410
+
+　　[https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944&reply_comment_id=812782789400410](https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944&reply_comment_id=812782789400410)
 
 * ツェーナーダイオードを外付けする（こばさん案、M5StickC）
 > 3.6V のツェナー付けたら、めっちゃ絶好調になった。※漏れ電流が多すぎて 2.7V くらいになったけど  
-https://twitter.com/wakwak_koba/status/1408794880407601153
+
+　　[https://twitter.com/wakwak_koba/status/1408794880407601153](https://twitter.com/wakwak_koba/status/1408794880407601153)
 
 * 内部に抵抗追加（佐々木明彦氏案、M5ATom）  
-https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944
+[https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944](https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944)
 
 * 基板上で抵抗追加（そーたメイ案、Wemos D1 R32）  
-https://github.com/espressif/arduino-esp32/issues/2144#issuecomment-657672609
+[https://github.com/espressif/arduino-esp32/issues/2144#issuecomment-657672609](https://github.com/espressif/arduino-esp32/issues/2144#issuecomment-657672609)
 
-元リンク：https://www.facebook.com/groups/154504605228235/permalink/699719300706760/
+元リンク：[https://www.facebook.com/groups/154504605228235/permalink/699719300706760/](https://www.facebook.com/groups/154504605228235/permalink/699719300706760/)
