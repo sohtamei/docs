@@ -52,7 +52,7 @@
 
 * 基板上で抵抗追加（そーたメイ案、Wemos D1 R32）  
 [https://github.com/espressif/arduino-esp32/issues/2144#issuecomment-657672609](https://github.com/espressif/arduino-esp32/issues/2144#issuecomment-657672609)  
-Wemos D1 R32はIO0をMOS x 2個のブリッジで生成しているために上記対策が有効ですが、M5シリーズの場合CH552内部でSW的にIO0を生成し、CH552のGPIOで直接IO0を駆動しているため外付け抵抗による対策はできません。
+M5シリーズの場合CH552内部でSW的にIO0を生成し、CH552のGPIOで直接IO0を駆動しているため外付け抵抗による対策はできません。
 
 * 内部に抵抗追加（佐々木明彦氏案、M5ATom）  
 [https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944](https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944)
