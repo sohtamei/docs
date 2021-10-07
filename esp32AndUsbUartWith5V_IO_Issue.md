@@ -42,7 +42,7 @@
 > 2. GROVE VCCから3.3V供給  
 > 推奨方法ではないですが、どちらも「PLEN:bit用M5ATOM変換基板」で実績(?) があります。ただ逆流防止の機能は無いため、USB-C端子でのPCやUSB電源への接続と、上記の3.3V供給は必ず排他（一方を繋ぐときはもう一方を外す）で扱う必要があります。  
 
-　　[https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944&reply_comment_id=812782789400410](https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944&reply_comment_id=812782789400410)
+　　[https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944&reply_comment_id=812782789400410](https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944&reply_comment_id=812782789400410)  
 　　※M5StickCなど、M5Atom以外のデバイスでは3.3V端子, GROVEからの電源供給は厳禁です！
 
 * ツェーナーダイオードを外付けする（こばさん案、M5StickC）
