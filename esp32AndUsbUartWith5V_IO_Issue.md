@@ -57,5 +57,7 @@ M5シリーズの場合CH552内部でSW的にIO0を生成し、CH552のGPIOで�
 * 内部に抵抗追加（佐々木明彦氏案、M5ATom）  
 [https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944](https://www.facebook.com/groups/154504605228235/posts/699719300706760/?comment_id=812684116076944)
 
-元リンク：[https://www.facebook.com/groups/154504605228235/permalink/699719300706760/](https://www.facebook.com/groups/154504605228235/permalink/699719300706760/)  
-M5Stack社コミュニティ：[https://community.m5stack.com/topic/3048/short-wifi-effective-range-and-io0-3-9v-issue-with-lite-and-matrix](https://community.m5stack.com/topic/3048/short-wifi-effective-range-and-io0-3-9v-issue-with-lite-and-matrix)
+### 関連BBS
+Facebook/M5Stack User Group Japan：[https://www.facebook.com/groups/154504605228235/permalink/699719300706760/](https://www.facebook.com/groups/154504605228235/permalink/699719300706760/)  
+M5Stack社コミュニティ：[https://community.m5stack.com/topic/3048/short-wifi-effective-range-and-io0-3-9v-issue-with-lite-and-matrix](https://community.m5stack.com/topic/3048/short-wifi-effective-range-and-io0-3-9v-issue-with-lite-and-matrix)  
+EspressIF/arduino-ESP32：[https://github.com/espressif/arduino-esp32/issues/2144](https://github.com/espressif/arduino-esp32/issues/2144)
