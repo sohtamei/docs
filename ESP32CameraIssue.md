@@ -27,8 +27,25 @@ ESP32カメラに共通するWifi接続性の問題です。WROOM-32で起きや
  
 2のことからXCLKと「WiFi不安定原因」の周期との同調が小さい（最大公倍数が大きい）周波数を取ることである程度の対策が可能かも  
 → XCLK=8MにすることでOK
+
+### テスト環境
+この問題はESP32単体で発生。下記に再現環境をリリース
+1. 拡張機能(左下ボタン) - [M5Camera,ESP32cam..] 選択
+
+2. [xx 書き込み] - [testXclockIssue]を選択して[xx 書き込み]をクリック  
+　FW書き込み開始
+
+3. [接続 ssid ..] でSSID/PASS設定してクリック
+
+4. [WiFi接続状態] でIP確認、ブラウザからIPにアクセス
+
+若干余計な機能が入ってますが、CameraWebServerです。
+
+![image](https://user-images.githubusercontent.com/43091864/139959400-63dfa8a6-8645-49a1-835b-4aa013128257.png)
  
 ### XCLK=8M評価結果
 
 試したデバイスで全てOK。数値は1回のキャプチャの時間ms
 
+### LINK
+M5Stack Community https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video
