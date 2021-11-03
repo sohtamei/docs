@@ -63,5 +63,17 @@ chip実装は全てOK。WROOMではaitendoのみOK
 **共通**  
 ESP32 - AP距離約5m、マンションのため他の世帯からの干渉は多い。
 
+### 対策FW
+unitCAM, ESP32CAM用FWをリリース中
+1. burn firmware (customized CameraWebServer)  
+https://sohta02.sakura.ne.jp/tukurutch/  
+[Add extension]  
+-- [M5Camera,ESP32cam,..]  
+-- pulldown [burn (M5Camera)] to "unitCam" or "esp32cam"  
+-- click [burn (unitCam)]  
+2. enter SSID and pass to [connect ssid ..] and click it.
+3. click [Wifi Status] and get IP address
+4. access to IP address via web Browser
+
 ### LINK
 M5Stack Community [https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video](https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video)
