@@ -13,7 +13,7 @@ ESP32カメラに共通するWifi接続性の問題です。WROOM-32で起きや
 1. I2Sによる10MHz生成（元はLEDC≒PWM）  
 　→ NG
  
-2. DirectI/Oによる10MHz生成
+2. DirectI/Oによる10MHz生成  
 　→ DevkitCはOKになったが、OKだったaitendo基板がNGになった。  
 　　XCLKとWiFi不安定の原因の間でなんらかの同調関係になると問題が起きるらしく、周波数と位相関係の依存性がありそう。
  
@@ -26,10 +26,14 @@ ESP32カメラに共通するWifi接続性の問題です。WROOM-32で起きや
 ![image](https://user-images.githubusercontent.com/43091864/139958515-1955829e-33e9-46d8-92dd-43f9bbea1107.png)
  
 2のことからXCLKと「WiFi不安定原因」の周期との同調が小さい（最大公倍数が大きい）周波数を取ることである程度の対策が可能かも  
-→ XCLK=8MにすることでOK
+→ XCLK=8MにすることでOK。なぜ8MHzだとOKなのかよくわからない、「WiFi不安定原因」が10MHzで動作している？
 
 ### テスト環境
-この問題はESP32単体で発生。下記に再現環境をリリース
+この問題はESP32単体で発生。下記に再現環境をリリースします。
+
+0. chromeブラウザで下記URLを開く  
+　https://sohta02.sakura.ne.jp/tukurutch/
+
 1. 拡張機能(左下ボタン) - [M5Camera,ESP32cam..] 選択
 
 2. [xx 書き込み] - [testXclockIssue]を選択して[xx 書き込み]をクリック  
@@ -39,13 +43,17 @@ ESP32カメラに共通するWifi接続性の問題です。WROOM-32で起きや
 
 4. [WiFi接続状態] でIP確認、ブラウザからIPにアクセス
 
-若干余計な機能が入ってますが、CameraWebServerです。
-
 ![image](https://user-images.githubusercontent.com/43091864/139959400-63dfa8a6-8645-49a1-835b-4aa013128257.png)
  
-### XCLK=8M評価結果
+### 評価結果
 
-試したデバイスで全てOK。数値は1回のキャプチャの時間ms
+XCLK=20MHz、カメラ不要、上記テスト環境  
+![image](https://user-images.githubusercontent.com/43091864/139960909-c1bd90ec-0595-44d1-afe3-67e02874f64c.png)    
+chip実装は全てOK。WROOMではaitendoのみOK
+
+XCLK=8MHz、カメラあり  
+![image](https://user-images.githubusercontent.com/43091864/139968956-ddacb4a7-6586-4c5f-9791-48acfc9d95fe.png)  
+全てOK
 
 ### LINK
 M5Stack Community https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video
