@@ -52,6 +52,8 @@ ESP32カメラで一般的なCameraWebServerで発生します。WROOM-32で起�
 
 <img src="https://user-images.githubusercontent.com/43091864/139969710-083c0ccc-a817-49ac-b846-8fdb240f49c2.png" width="700" />  
 
+ソースコード：[https://github.com/sohtamei/TuKuRutch.ext/tree/master/libraries/testCamWifi/src](https://github.com/sohtamei/TuKuRutch.ext/tree/master/libraries/testCamWifi/src)
+
 ### 評価結果
 
 **XCLK=20MHz、カメラ不要、上記テスト環境**  
