@@ -3,10 +3,11 @@
 ### 概要
 ESP32のLEDCやI2Sで5, 10, 20MHzのmaster clock (連続したclock) を出力するとWifiスループットが低下します。  
 ESP32カメラで一般的なCameraWebServerで発生します。WROOM-32で起きやすく、chip実装で起きにくいです。  
+[https://www.facebook.com/100009187204902/videos/954929518394522/](https://www.facebook.com/100009187204902/videos/954929518394522/)
 
 ### 対策
-- XCLKを20 → 8MHz等にする（20, 10, 5MHzはNG）  
-　ov2640の動作clockが1/2.5になってしまうため、ov2640内部の逓倍PLLでx2動作させる  
+- XCLK(master clock)を20 → 8MHz等にする  
+　ov2640の場合動作clockが1/2.5になってしまうため、ov2640内部の逓倍PLLでx2動作させる  
  
 ### 試したこと＆考察
 0. WROOM-32で起きやすく、chip実装で起きにくい。32/32D/32E間での有意差は確認できず
