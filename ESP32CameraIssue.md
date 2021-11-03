@@ -80,5 +80,5 @@ unitCAM, ESP32CAM用FWをリリース中
 4. access to IP address via web Browser
 
 ### LINK
-M5Stack Community [https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video](https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video)
-Official arduino-esp32 [https://github.com/espressif/arduino-esp32/issues/5834](https://github.com/espressif/arduino-esp32/issues/5834)
+M5Stack Community [https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video](https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video)  
+Official arduino-esp32 [https://github.com/espressif/arduino-esp32/issues/5834](https://github.com/espressif/arduino-esp32/issues/5834)  
