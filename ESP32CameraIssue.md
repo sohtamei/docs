@@ -26,7 +26,9 @@ ESP32カメラに共通するWifi接続性の問題です。WROOM-32で起きや
 ![image](https://user-images.githubusercontent.com/43091864/139958515-1955829e-33e9-46d8-92dd-43f9bbea1107.png)
  
 2のことからXCLKと「WiFi不安定原因」の周期との同調が小さい（最大公倍数が大きい）周波数を取ることである程度の対策が可能かも  
-→ XCLK=8MにすることでOK。なぜ8MHzだとOKなのかよくわからない、「WiFi不安定原因」が10MHzで動作している？
+→ XCLK=8MにすることでOK、未知の「WiFi不安定原因」が10MHzで動作している？  
+　ノイズ源：不安定要因 ＝ 8MHz：10MHz？ ＝ 4：5 とあまり非同期化できていないため(XCLKから見て4周期に1回程度同期する)、  
+　なぜここまで効果があるのか謎。
 
 ### テスト環境
 この問題はESP32単体で発生。下記に再現環境をリリースします。
@@ -39,23 +41,26 @@ ESP32カメラに共通するWifi接続性の問題です。WROOM-32で起きや
 2. [xx 書き込み] - [testXclockIssue]を選択して[xx 書き込み]をクリック  
 　FW書き込み開始
 
-3. [接続 ssid ..] でSSID/PASS設定してクリック
+3. [接続 ssid ..] でSSID/PASS設定してクリック、[WiFi接続状態] でIP確認
 
-4. [WiFi接続状態] でIP確認、ブラウザからIPにアクセス
+<img src="https://user-images.githubusercontent.com/43091864/139959400-63dfa8a6-8645-49a1-835b-4aa013128257.png" width="300" />  
 
-![image](https://user-images.githubusercontent.com/43091864/139959400-63dfa8a6-8645-49a1-835b-4aa013128257.png)
- 
+4. ブラウザからIPにアクセス、ダミー画像の[Get Still] [Start Stream] が可能、xclkの設定変更が可能  
+　TeraTermで所要時間を確認することが出来る。
+
+<img src="https://user-images.githubusercontent.com/43091864/139969710-083c0ccc-a817-49ac-b846-8fdb240f49c2.png" width="700" />  
+
 ### 評価結果
 
-XCLK=20MHz、カメラ不要、上記テスト環境  
-![image](https://user-images.githubusercontent.com/43091864/139960909-c1bd90ec-0595-44d1-afe3-67e02874f64c.png)    
-chip実装は全てOK。WROOMではaitendoのみOK
+**XCLK=20MHz、カメラ不要、上記テスト環境**  
+<img src="https://user-images.githubusercontent.com/43091864/139960909-c1bd90ec-0595-44d1-afe3-67e02874f64c.png" width="400" />  
+chip実装は全てOK。WROOMではaitendoのみOK  
+  
+**XCLK=8MHz、カメラあり**  
+<img src="https://user-images.githubusercontent.com/43091864/139968956-ddacb4a7-6586-4c5f-9791-48acfc9d95fe.png" width="400" />  
+全てOK。ov2640 → ESP32転送が有効のため20MHz評価より時間が長くなっているが正常。
 
-XCLK=8MHz、カメラあり  
-![image](https://user-images.githubusercontent.com/43091864/139968956-ddacb4a7-6586-4c5f-9791-48acfc9d95fe.png)  
-全てOK
-
-共通
+**共通**  
 ESP32 - AP距離約5m、マンションのため他の世帯からの干渉は多い。
 
 ### LINK
