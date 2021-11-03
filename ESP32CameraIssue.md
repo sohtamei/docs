@@ -34,7 +34,7 @@ ESP32カメラに共通するWifi接続性の問題です。WROOM-32で起きや
 この問題はESP32単体で発生。下記に再現環境をリリースします。
 
 0. chromeブラウザで下記URLを開く  
-　https://sohta02.sakura.ne.jp/tukurutch/
+　[https://sohta02.sakura.ne.jp/tukurutch/](https://sohta02.sakura.ne.jp/tukurutch/)
 
 1. 拡張機能(左下ボタン) - [M5Camera,ESP32cam..] 選択
 
@@ -64,4 +64,4 @@ chip実装は全てOK。WROOMではaitendoのみOK
 ESP32 - AP距離約5m、マンションのため他の世帯からの干渉は多い。
 
 ### LINK
-M5Stack Community https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video
+M5Stack Community [https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video](https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video)
