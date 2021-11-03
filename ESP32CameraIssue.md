@@ -1,7 +1,8 @@
 ## ESP32 camera deviceでのWifi問題まとめ
 
-ESP32カメラに共通するWifi接続性の問題です。WROOM-32で起きやすく、chip実装で起きにくいです。  
-周辺デバイスやI2Sのmaster clockをESP32で生成したときに起きる問題で、カメラ以外でも起きます。
+### 概要
+ESP32のLEDCやI2Sで5, 10, 20MHzのmaster clock (連続したclock) を出力するとWifiスループットが低下します。  
+ESP32カメラで一般的なCameraWebServerで発生します。WROOM-32で起きやすく、chip実装で起きにくいです。  
 
 ### 対策
 - XCLKを20 → 8MHz等にする（20, 10, 5MHzはNG）  
