@@ -21,7 +21,7 @@
 
 [ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ](esp32AndUsbUartWith5V_IO_Issue.md)
 
-[unitCamなどのESP32カメラのWiFi問題まとめ](https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video)
+[unitCamなどのESP32カメラのWiFi問題まとめ](ESP32CameraIssue.md)
 
 ## USB2BTサポート情報
 
