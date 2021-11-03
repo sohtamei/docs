@@ -22,7 +22,7 @@ ESP32カメラで一般的なCameraWebServerで発生します。WROOM-32で起�
 3. 最終段のIO_MUXを10MHzから別のI/O(H又はL)にするとOKになる  
 　→ IO_MUX、DigitalPads (出力I/Oセル) 周辺で問題が起きている
  
-4. XCLK出力 open drain、drive stgrength 最低でもNG。XCLK=GND直結でもNG  
+4. XCLK出力 open drain、drive strength 最低でもNG。XCLK=GND直結でもNG  
 　→ 出力I/Oセル周辺の問題だが、XCLK信号の反射等によるものではない
  
 ![image](https://user-images.githubusercontent.com/43091864/139958515-1955829e-33e9-46d8-92dd-43f9bbea1107.png)
