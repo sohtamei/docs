@@ -55,5 +55,8 @@ XCLK=8MHz、カメラあり
 ![image](https://user-images.githubusercontent.com/43091864/139968956-ddacb4a7-6586-4c5f-9791-48acfc9d95fe.png)  
 全てOK
 
+共通
+ESP32 - AP距離約5m、マンションのため他の世帯からの干渉は多い。
+
 ### LINK
 M5Stack Community https://community.m5stack.com/topic/3649/unitcam-hw-issue-cannot-stream-video
