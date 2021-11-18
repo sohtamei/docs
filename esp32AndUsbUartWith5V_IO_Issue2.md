@@ -14,7 +14,8 @@ CH552の書き込みは下記３つがあり、
 かなり不安定そうです。
 
 1のdownloadモードピンはUDPを2.2kΩで3.3Vにpullupしたところ動作しました。
-![DSC05581](https://user-images.githubusercontent.com/43091864/142501427-00a60bf9-7fae-49d9-a028-926cfd1225fa.JPG)
+<img src="https://user-images.githubusercontent.com/43091864/142501427-00a60bf9-7fae-49d9-a028-926cfd1225fa.JPG" width="500" />  
+
 下記サイトを参考にさせて頂きました。
 https://github.com/betaEncoder/CH551_Breakout_Board
 
@@ -26,6 +27,6 @@ https://github.com/m5stack/M5_CH55x
 
 まずuVisionで試したところ、無料版の壁である800H問題にぶつかってしまいました。
 
-![image](https://user-images.githubusercontent.com/43091864/142502667-d9313ffb-0786-453e-b5bb-b10786edbf38.png)
+<img src="https://user-images.githubusercontent.com/43091864/142502667-d9313ffb-0786-453e-b5bb-b10786edbf38.png" width="500" />  
 
 
