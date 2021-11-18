@@ -21,6 +21,8 @@
 
 [ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ](esp32AndUsbUartWith5V_IO_Issue.md)
 
+[ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ2](esp32AndUsbUartWith5V_IO_Issue2.md)
+
 [unitCamなどのESP32カメラのWiFi問題まとめ](ESP32CameraIssue.md)
 
 ## USB2BTサポート情報
