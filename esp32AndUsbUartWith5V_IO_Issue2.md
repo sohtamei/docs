@@ -89,7 +89,7 @@ https://itoi.jp/M5Stack.html?fbclid=IwAR0HmmXVnrWot6k04CB0n982jV-DUhQhYaWU-cpXmX
 https://github.com/betaEncoder/CH551_Breakout_Board  
 
 
-### （ボツ）build環境
+### （中止）build環境
 
 ついにM5Stack社よりCH552ソース公開して頂きました。  
 https://github.com/m5stack/M5_CH55x  
