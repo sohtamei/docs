@@ -4,7 +4,7 @@
 
 Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こちらのFWを書き込むことでGPIO=4V問題が解決することが確認されました。
 
-[usb_ft232bm.bin](https://github.com/sohtamei/docs/images/usb_ft232bm.bin)
+[usb_ft232bm.bin](https://github.com/sohtamei/docs/blob/master/images/usb_ft232bm.bin)
 
 M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデバイスが対象です。  
 私の環境ではなぜか今日時点で「ATOM WiFi不安定問題」が再現できなかったため、対策FWによりWiFiが改善するか確認できませんでした。
@@ -75,7 +75,7 @@ https://ftdichip.com/utilities/#ft_prog
 ## FW書き込み
 
 [WCHISPTool](http://www.wch.cn/downloads/WCHISPTool_Setup_exe.html) にアクセスし、[下载] を押してダウンロードしてインストール。  
-[IDA氏のFW](https://github.com/sohtamei/docs/images/usb_ft232bm.bin) をダウンロードして書き込み。
+[IDA氏のFW](https://github.com/sohtamei/docs/blob/master/images/usb_ft232bm.bin) をダウンロードして書き込み。
 
 ![image](https://user-images.githubusercontent.com/43091864/142724843-0a87950c-aba7-4282-b02d-80fb3d01ba5d.png)
 
