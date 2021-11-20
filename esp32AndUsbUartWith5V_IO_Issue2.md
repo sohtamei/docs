@@ -79,7 +79,7 @@ https://ftdichip.com/utilities/#ft_prog
 
 ![image](https://user-images.githubusercontent.com/43091864/142724843-0a87950c-aba7-4282-b02d-80fb3d01ba5d.png)
 
-「専用ケーブル方式」の場合は必ず改造していないUSB-Cケーブルに繋ぎなおして下さい。
+書き込み完了後、「専用ケーブル方式」の場合は必ず改造していないUSB-Cケーブルに繋ぎなおして下さい。
 
 ### 参考
 
