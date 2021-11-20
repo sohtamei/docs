@@ -1,17 +1,17 @@
-## ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ（２）
+# ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ（２）
 
-### 改善FWについて
+## 改善FWについて
 
 Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こちらのFWを書き込むことでGPIO=4V問題が解決することが確認されました。
 
 [usb_ft232bm.bin](https://github.com/sohtamei/docs/images/usb_ft232bm.bin)
 
 
-### Downloadモード設定
+## Downloadモード設定
 
 CH552を書き込むためにはCH552をDownloadモードにする必要があります。まず「FT_Prog」方式を試し、ダメだったら「Downloadモードピン方式」を試して下さい。
 
-#### 1. FT_Prog方式
+### 1. FT_Prog方式
 
 下記URLからFT_Progをダウンロードしてインストールします。  
 https://ftdichip.com/utilities/#ft_prog  
@@ -43,12 +43,24 @@ NGの場合2.Downloadモードピンを試して下さい。
 |unitV||OK|
 |TimerCAM||NG|
 
-#### 2. Downloadモードピン方式
+### 2. Downloadモードピン方式
 
+#### 必要なもの
 
+- 不要なUSB-Cケーブル
+- 抵抗 100Ω、220Ω、2.2kΩ
+- ニッパー、ワイヤストリッパー
+
+#### 1. USB-Cケーブルを用意しニッパーで5cmくらい被覆をむく。中のケーブルを傷つけないように注意。  
+![image](https://user-images.githubusercontent.com/43091864/142724112-3c2a2d1e-33e3-4e13-be2f-7ffcf934af88.png)  
+
+#### 2. 
 
 下記サイトを参考にさせて頂きました。  
 https://github.com/betaEncoder/CH551_Breakout_Board
+
+
+
 
 ### build環境
 
