@@ -55,7 +55,7 @@ https://ftdichip.com/utilities/#ft_prog
 #### 1. USB-Cケーブルを用意しニッパーで5cmくらい被覆をむく。中のケーブルを傷つけないように注意。  
 ![image](https://user-images.githubusercontent.com/43091864/142724354-ac27b3ec-0a9b-4e92-89db-f5e65eaf14d7.png)  
 
-#### 2. 赤、黒、緑のケーブルをワイヤストリッパーで写真の位置でむく。中の同線を傷つけ切らないように注意。
+#### 2. 赤、黒、緑のケーブルをワイヤストリッパーで写真の位置でむく。中の銅線を傷つけ切らないように注意。
 ![image](https://user-images.githubusercontent.com/43091864/142724535-c8f25ae4-a2b9-4b29-8047-161d200ba2ed.png)
 
 #### 3. 220Ωと100Ωをひねって繋ぎ、220Ωを黒、100Ωを赤のむいた部分に巻き付け、3か所半田付けする。
