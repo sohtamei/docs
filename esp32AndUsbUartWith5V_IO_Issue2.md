@@ -11,7 +11,7 @@ Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こ
 
 CH552を書き込むためにはCH552をDownloadモードにする必要があります。まず「FT_Prog」方式を試し、ダメだったら「Downloadモードピン方式」を試して下さい。
 
-#### 1. Downloadモード - FT_Prog
+#### 1. FT_Prog方式
 
 下記URLからFT_Progをダウンロードしてインストールします。  
 https://ftdichip.com/utilities/#ft_prog  
@@ -20,14 +20,15 @@ https://ftdichip.com/utilities/#ft_prog
 ![image](https://user-images.githubusercontent.com/43091864/142723316-7f39791f-8490-4269-ae82-2042a0e3ce1c.png)  
 
 - FT-Prog上で [F5] を押します。  
-1. [USB Module] が表示されたらDownloadモードに入りました。  
+1. デバイスマネジャ上で [USB Module] が表示されたらDownloadモードに入りました。  
 ![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
-2. 下記のようにデバイスが表示され、デバイスマネージャ上で [USB Serial Port(COMxx)] のままの場合 [Ctrl-P] - [Proram] を押して下さい。  
+2. 下記のようにデバイスが表示されデバイスマネージャ上で [USB Serial Port(COMxx)] のままの場合、[Ctrl-P] - [Proram] を押して下さい。  
   ![image](https://user-images.githubusercontent.com/43091864/142723354-203363d8-3040-4997-822f-b3f729229575.png)  
-  [USB Module] が表示されたらDownloadモードに入りました。  
-3. デバイスマネージャ上で何も表示されてないときはNGです。  
+  デバイスマネジャ上で [USB Module] が表示されたらDownloadモードに入りました。  
+3. FT-Prog上で [F5] を押したあとデバイスマネージャ上で何も表示されてないときはNGです。  
 
-手持ちのM5デバイスを試したところ下記の通りでした。NGの場合2.Downloadモードピンを試して下さい。  
+手持ちのM5デバイスを試したところ下記の通りでした。デバイス出荷時に書かれたCH552のFWでOK/NGに分かれるようです。  
+NGの場合2.Downloadモードピンを試して下さい。  
 
 |デバイス|ID|結果|
 |:--|:--:|:--:|
@@ -42,20 +43,9 @@ https://ftdichip.com/utilities/#ft_prog
 |unitV||OK|
 |TimerCAM||NG|
 
-#### 2. Downloadモード - Downloadモードピン
+#### 2. Downloadモードピン方式
 
-2は手持ちのM5デバイスをいくつか試したところ4個NGで1個OK（古いM5StickC）、ただM5Stack社からサンプルとして提供されたft232_OD_20200422.hexを書いたところNG4個と同じ状態になりました。
 
-- FT232互換モード？  
-K016 C 552串口usb_ft232bm_01022020(3).bin
-
-- FT_PROG認識しない  
-ft232_OD_20200422.hex
-
-かなり不安定そうです。
-
-1のdownloadモードピンはUDPを2.2kΩで3.3Vにpullupしたところ動作しました。  
-<img src="https://user-images.githubusercontent.com/43091864/142501427-00a60bf9-7fae-49d9-a028-926cfd1225fa.JPG" width="500" />  
 
 下記サイトを参考にさせて頂きました。  
 https://github.com/betaEncoder/CH551_Breakout_Board
