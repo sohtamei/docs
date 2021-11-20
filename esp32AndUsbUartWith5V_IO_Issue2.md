@@ -65,7 +65,7 @@ https://ftdichip.com/utilities/#ft_prog
 ![image](https://user-images.githubusercontent.com/43091864/142724710-701029b7-a954-4ad4-b1d9-4fded20fb5a1.png)
 
 #### 5. 抵抗のリード線を半田付け根元で切断。赤、緑、黒がショートしないように調整。
-![image](https://user-images.githubusercontent.com/43091864/142724819-e3f9968e-306a-43b1-a3a7-966f126d6192.png)
+![image](https://user-images.githubusercontent.com/43091864/142727163-a1051f7a-ac8d-4823-b3c0-a9ada4cfaa2c.png)
 
 #### 6. 作成したケーブルを使ってM5デバイスをパソコンに接続。  
 
