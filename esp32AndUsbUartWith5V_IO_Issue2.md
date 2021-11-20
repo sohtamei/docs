@@ -78,13 +78,15 @@ WCHISPTool をダウンロードしてインストール。[IDA氏のFW](https:/
 ![image](https://user-images.githubusercontent.com/43091864/142724843-0a87950c-aba7-4282-b02d-80fb3d01ba5d.png)
 
 
+### 参考
+
 下記サイトを参考にさせて頂きました。  
 https://github.com/m5stack/M5_CH55x  
 https://itoi.jp/M5Stack.html?fbclid=IwAR0HmmXVnrWot6k04CB0n982jV-DUhQhYaWU-cpXmXGFnWx4r418dmFnFPY#M5Atom-5V_IO_Issue  
 https://github.com/betaEncoder/CH551_Breakout_Board  
 
 
-## （ボツ）build環境
+### （ボツ）build環境
 
 ついにM5Stack社よりCH552ソース公開して頂きました。  
 https://github.com/m5stack/M5_CH55x  
