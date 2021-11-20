@@ -67,9 +67,9 @@ https://ftdichip.com/utilities/#ft_prog
 #### 5. 抵抗のリード線を半田付け根元で切断。赤、緑、黒がショートしないように調整。
 ![image](https://user-images.githubusercontent.com/43091864/142727163-a1051f7a-ac8d-4823-b3c0-a9ada4cfaa2c.png)
 
-#### 6. 作成したケーブルを使ってM5デバイスをパソコンに接続。  
+#### 6. 作成したケーブルをM5デバイスに接続し、パソコンに接続。  
 
- デバイスマネージャ上で [USB Module] が表示されたらDownloadモードに入りました。  
+ 必ずM5デバイス、パソコンの順に接続して下さい。デバイスマネージャ上で [USB Module] が表示されたらDownloadモードに入りました。  
   ![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
 
 ## FW書き込み
