@@ -1,14 +1,48 @@
 ## ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ（２）
 
-### 書き込み環境
+### 改善FWについて
 
-CH552の書き込みは下記３つがあり、
+Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こちらのFWを書き込むことでGPIO=4V問題が解決することが確認されました。
 
-1. downloadモードピン＋WCHISPTool
+[usb_ft232bm.bin](https://github.com/sohtamei/docs/images/usb_ft232bm.bin)
 
-2. FT_Prog＋WCHISPTool
 
-3. M5Stack社が2020/1に公開したMAC専用CH552 updater
+### Downloadモード設定
+
+CH552を書き込むためにはCH552をDownloadモードにする必要があります。まず「FT_Prog」方式を試し、ダメだったら「Downloadモードピン方式」を試して下さい。
+
+#### 1. Downloadモード - FT_Prog
+
+下記URLからFT_Progをダウンロードしてインストールします。  
+https://ftdichip.com/utilities/#ft_prog  
+
+- パソコンにM5デバイスを接続し、デバイスマネジャ [表示] - [デバイス(接続別)]を選択、[USB Serial Port(COMxx)] を表示しておきます。  
+![image](https://user-images.githubusercontent.com/43091864/142723316-7f39791f-8490-4269-ae82-2042a0e3ce1c.png)  
+
+- FT-Prog上で [F5] を押します。  
+1. [USB Module] が表示されたらDownloadモードに入りました。  
+![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
+2. 下記のようにデバイスが表示され、デバイスマネージャ上で [USB Serial Port(COMxx)] のままの場合 [Ctrl-P] - [Proram] を押して下さい。  
+  ![image](https://user-images.githubusercontent.com/43091864/142723354-203363d8-3040-4997-822f-b3f729229575.png)  
+  [USB Module] が表示されたらDownloadモードに入りました。  
+3. デバイスマネージャ上で何も表示されてないときはNGです。  
+
+手持ちのM5デバイスを試したところ下記の通りでした。NGの場合2.Downloadモードピンを試して下さい。  
+
+|デバイス|ID|結果|
+|:--|:--:|:--:|
+|ATOM LITE|1|NG|
+|ATOM LITE|2|NG|
+|ATOM MATRIX|1|NG|
+|ATOM MATRIX|2|NG|
+|ATOM ECHO||NG|
+|StickC|1|OK|
+|StickC|2|NG|
+|StickCplus||NG|
+|unitV||OK|
+|TimerCAM||NG|
+
+#### 2. Downloadモード - Downloadモードピン
 
 2は手持ちのM5デバイスをいくつか試したところ4個NGで1個OK（古いM5StickC）、ただM5Stack社からサンプルとして提供されたft232_OD_20200422.hexを書いたところNG4個と同じ状態になりました。
 
