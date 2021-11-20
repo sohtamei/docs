@@ -16,16 +16,17 @@ CH552を書き込むためにはCH552をDownloadモードにする必要があ�
 下記URLからFT_Progをダウンロードしてインストールします。  
 https://ftdichip.com/utilities/#ft_prog  
 
-- パソコンにM5デバイスを接続し、デバイスマネジャーで [表示] - [デバイス(接続別)] を選択、[USB Serial Port(COMxx)] を表示しておきます。  
+- パソコンにM5デバイスを接続し、デバイスマネージャで [表示] - [デバイス(接続別)] を選択、[USB Serial Port(COMxx)] を表示しておきます。  
 ![image](https://user-images.githubusercontent.com/43091864/142723316-7f39791f-8490-4269-ae82-2042a0e3ce1c.png)  
 
 - FT-Prog上で [F5] を押します。  
-1. デバイスマネジャ上で [USB Module] が表示されたらDownloadモードに入りました。  
-![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
-2. 下記のようにデバイスが表示されデバイスマネージャ上で [USB Serial Port(COMxx)] のままの場合、[Ctrl-P] - [Proram] を押して下さい。  
+1. デバイスマネージャ上で [USB Module] が表示されたらDownloadモードに入りました。  
+  ![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
+2. 下記のようにデバイスが表示されデバイスマネージャ上で [USB Serial Port(COMxx)] のままの場合、[Ctrl-P] - [Program] を押して下さい。  
   ![image](https://user-images.githubusercontent.com/43091864/142723354-203363d8-3040-4997-822f-b3f729229575.png)  
-  デバイスマネジャ上で [USB Module] が表示されたらDownloadモードに入りました。  
-3. FT-Prog上で [F5] を押したあとデバイスマネージャ上で何も表示されてないときはNGです。  
+  デバイスマネージャ上で [USB Module] が表示されたらDownloadモードに入りました。  
+  ![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
+3. FT-Prog上で [F5] を押したあとデバイスマネージャ上で表示が消えてしまうときはNGです。  
 
 手持ちのM5デバイスを試したところ下記の通りでした。デバイス出荷時に書かれたCH552のFWでOK/NGに分かれるようです。  
 NGの場合2.Downloadモードピンを試して下さい。  
