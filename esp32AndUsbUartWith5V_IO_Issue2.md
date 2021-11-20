@@ -6,6 +6,7 @@ Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こ
 
 [usb_ft232bm.bin](https://github.com/sohtamei/docs/images/usb_ft232bm.bin)
 
+M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデバイスが対象です。  
 私の環境ではなぜか今日時点で「ATOM WiFi不安定問題」が再現できなかったため、対策FWによりWiFiが改善するか確認できませんでした。
 
 ## Downloadモード設定
@@ -40,8 +41,8 @@ https://ftdichip.com/utilities/#ft_prog
 |StickC|1|OK|
 |StickC|2|NG|
 |StickCplus||NG|
-|unitV||OK|
 |TimerCAM||NG|
+|unitV||OK|
 
 ### 2. Downloadモードピン方式
 
