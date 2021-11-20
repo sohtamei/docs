@@ -16,7 +16,7 @@ CH552を書き込むためにはCH552をDownloadモードにする必要があ�
 下記URLからFT_Progをダウンロードしてインストールします。  
 https://ftdichip.com/utilities/#ft_prog  
 
-- パソコンにM5デバイスを接続し、デバイスマネジャ [表示] - [デバイス(接続別)]を選択、[USB Serial Port(COMxx)] を表示しておきます。  
+- パソコンにM5デバイスを接続し、デバイスマネジャーで [表示] - [デバイス(接続別)] を選択、[USB Serial Port(COMxx)] を表示しておきます。  
 ![image](https://user-images.githubusercontent.com/43091864/142723316-7f39791f-8490-4269-ae82-2042a0e3ce1c.png)  
 
 - FT-Prog上で [F5] を押します。  
