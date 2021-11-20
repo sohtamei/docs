@@ -1,4 +1,4 @@
-# ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ（２）
+# ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ（FW更新方法）
 
 ## 改善FWについて
 
