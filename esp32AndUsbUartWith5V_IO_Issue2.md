@@ -11,7 +11,7 @@ M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデ�
 
 ## Downloadモード設定
 
-CH552を書き込むためにはCH552をDownloadモードにする必要があります。まず「FT_Prog」方式を試し、ダメだったら「Downloadモードピン方式」を試して下さい。
+CH552を書き込むためにはCH552をDownloadモードにする必要があります。まず「FT_Prog」方式を試し、ダメだったら「専用ケーブル方式」を試して下さい。
 
 ### 1. FT_Prog方式
 
@@ -28,7 +28,7 @@ https://ftdichip.com/utilities/#ft_prog
   ![image](https://user-images.githubusercontent.com/43091864/142723354-203363d8-3040-4997-822f-b3f729229575.png)  
   デバイスマネージャ上で [USB Module] が表示されたらDownloadモードに入りました。  
   ![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
-3. FT-Prog上で [F5] を押したあとデバイスマネージャ上で表示が消えてしまうときはNGです、「Downloadモードピン方式」を試して下さい。  
+3. FT-Prog上で [F5] を押したあとデバイスマネージャ上で表示が消えてしまうときはNGです、「専用ケーブル方式」を試して下さい。  
 手持ちのM5デバイスを試したところ下記の通りでした。デバイス出荷時に書かれたCH552のFWでOK/NGに分かれるようです。  
 
 |デバイス|ID|結果|
@@ -44,11 +44,11 @@ https://ftdichip.com/utilities/#ft_prog
 |TimerCAM||NG|
 |unitV||OK|
 
-### 2. Downloadモードピン方式
+### 2. 専用ケーブル方式
 
 #### 必要なもの
 
-- 不要なUSB-Cケーブル
+- 不要なUSB-Cケーブル（改造後は通常の用途で使うことができません）
 - リード抵抗 100Ω、220Ω、2.2kΩ
 - ニッパー、ワイヤストリッパー
 
@@ -78,6 +78,7 @@ WCHISPTool をダウンロードしてインストール。[IDA氏のFW](https:/
 
 ![image](https://user-images.githubusercontent.com/43091864/142724843-0a87950c-aba7-4282-b02d-80fb3d01ba5d.png)
 
+「専用ケーブル方式」の場合は必ず改造していないUSB-Cケーブルに繋ぎなおして下さい。
 
 ### 参考
 
