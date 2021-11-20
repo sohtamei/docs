@@ -6,6 +6,8 @@ Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こ
 
 [usb_ft232bm.bin](https://github.com/sohtamei/docs/images/usb_ft232bm.bin)
 
+私の環境ではなぜか今日時点で「ATOM WiFi不安定問題」が再現できなかったため、対策FWによりWiFiが改善するか確認できませんでした。
+
 ## Downloadモード設定
 
 CH552を書き込むためにはCH552をDownloadモードにする必要があります。まず「FT_Prog」方式を試し、ダメだったら「Downloadモードピン方式」を試して下さい。
