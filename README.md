@@ -21,7 +21,7 @@
 
 [ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ](esp32AndUsbUartWith5V_IO_Issue.md)
 
-[ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ2](esp32AndUsbUartWith5V_IO_Issue2.md)
+[ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ(FW更新方法)](esp32AndUsbUartWith5V_IO_Issue2.md)
 
 [unitCamなどのESP32カメラのWiFi問題まとめ](ESP32CameraIssue.md)
 
