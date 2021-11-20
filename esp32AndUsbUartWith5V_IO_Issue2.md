@@ -74,7 +74,8 @@ https://ftdichip.com/utilities/#ft_prog
 
 ## FW書き込み
 
-WCHISPTool をダウンロードしてインストール。[IDA氏のFW](https://github.com/sohtamei/docs/images/usb_ft232bm.bin) をダウンロードして書き込み。
+[WCHISPTool](http://www.wch.cn/downloads/WCHISPTool_Setup_exe.html) にアクセスし、[下载] を押してダウンロードしてインストール。  
+[IDA氏のFW](https://github.com/sohtamei/docs/images/usb_ft232bm.bin) をダウンロードして書き込み。
 
 ![image](https://user-images.githubusercontent.com/43091864/142724843-0a87950c-aba7-4282-b02d-80fb3d01ba5d.png)
 
