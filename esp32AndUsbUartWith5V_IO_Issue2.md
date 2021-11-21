@@ -24,7 +24,7 @@ CH552を書き込むためにはCH552をDownloadモードにする必要があ�
 - FT-Prog上で [F5] を押します。  
 1. デバイスマネージャ上で [USB Module] が表示されたらDownloadモードに入りました。  
   ![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
-2. 下記のようにデバイスが表示されデバイスマネージャ上で [USB Serial Port(COMxx)] のままの場合、[Ctrl-P] - [Program] を押して下さい。  
+2. FT-Prog：デバイス表示（下図)、デバイスマネージャ：[USB Serial Port(COMxx)] 表示のとき、FT-Progで[Ctrl-P] - [Program] を押して下さい。  
   ![image](https://user-images.githubusercontent.com/43091864/142723354-203363d8-3040-4997-822f-b3f729229575.png)  
   デバイスマネージャ上で [USB Module] が表示されたらDownloadモードに入りました。  
   ![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
