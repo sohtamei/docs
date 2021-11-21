@@ -102,4 +102,5 @@ CH552を書き込むためにはCH552をDownloadモードにする必要があ�
 - M5Stack社からリリースされているM5_CH55xはkeilC51 uVision用
 - サンプルとして公開されているbinary は2560~3000byte程度あり、コード削減で2048に収めるのは効率悪そう
 
-現在M5_CH55xをkeilC51→SDCC環境にポーティング中。。
+~~現在M5_CH55xをkeilC51→SDCC環境にポーティング中。。https://github.com/sohtamei/M5_CH55x~~  
+現在中断中
