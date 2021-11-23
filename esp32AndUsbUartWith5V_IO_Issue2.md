@@ -2,12 +2,12 @@
 
 ## 改善FWについて
 
-Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こちらのFWを書き込むことでGPIO=4V問題が解決することが確認されました。
+Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こちらのFWを書き込むことでWiFi不安定問題が解決することが確認されました。
 
 [usb_ft232bm.bin](https://github.com/sohtamei/docs/blob/master/images/usb_ft232bm.bin)  
 [https://github.com/ciniml/M5_CH55x](https://github.com/ciniml/M5_CH55x)
 
-M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデバイスが対象です、不具合の詳細は[こちら](esp32AndUsbUartWith5V_IO_Issue.html)。  
+M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデバイスが対象です。不具合の詳細は[こちら](esp32AndUsbUartWith5V_IO_Issue.html)。  
 
 ## Downloadモード設定
 
