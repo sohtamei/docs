@@ -33,8 +33,8 @@
 * M5Stack社コミュニティ：[https://community.m5stack.com/topic/3048/short-wifi-effective-range-and-io0-3-9v-issue-with-lite-and-matrix](https://community.m5stack.com/topic/3048/short-wifi-effective-range-and-io0-3-9v-issue-with-lite-and-matrix)  
 
 * EspressIF/arduino-ESP32：[https://github.com/espressif/arduino-esp32/issues/2144](https://github.com/espressif/arduino-esp32/issues/2144)  
-ESP32コミュニティでWiFiエラーログが表示され、通信が不安定になる問題が報告される。  
-※このエラーログは通常のFWでは表示されません、DebugLevel=Verpose等のFWを書き込む必要があります。  
-ESP32のIO0はADC2_1とのpinmuxになっており、ADC2はWiFi機能の一部として使用される。  
-IO0の出力段の電気回路により4V以上の高電圧がADC2に流れ込み、WiFi機能に何らかの影響を及ぼしている可能性がある。
+  * ESP32コミュニティでWiFiエラーログが表示され、通信が不安定になる問題が報告される。  
+  ※このエラーログは通常のFWでは表示されません、DebugLevel=Verpose等のFWを書き込む必要があります。  
+  * ESP32のIO0はADC2_1とのpinmuxになっており、ADC2はWiFi機能の一部として使用される。  
+  * IO0の出力段の電気回路により4V以上の高電圧がADC2に流れ込み、WiFi機能に何らかの影響を及ぼしている可能性がある。
 
