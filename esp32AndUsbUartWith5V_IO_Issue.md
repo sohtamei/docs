@@ -26,7 +26,7 @@
 
 ### 対策方法
 * M5Stack社、井田健太氏、糸井成夫氏により対策FWがリリースされました。  
-[FWと更新方法](esp32AndUsbUartWith5V_IO_Issue.md)
+[FWと更新方法](esp32AndUsbUartWith5V_IO_Issue2.md)
 
 ### 関連BBS
 * Facebook/M5Stack User Group Japan：[https://www.facebook.com/groups/154504605228235/permalink/699719300706760/](https://www.facebook.com/groups/154504605228235/permalink/699719300706760/)  
