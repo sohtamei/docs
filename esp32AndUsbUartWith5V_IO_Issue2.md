@@ -85,6 +85,7 @@ CH552を書き込むためにはCH552をDownloadモードにする必要があ�
 
 下記サイトを参考にさせて頂きました。  
 [https://github.com/m5stack/M5_CH55x](https://github.com/m5stack/M5_CH55x)  
+[https://github.com/ciniml/M5_CH55x](https://github.com/ciniml/M5_CH55x)  
 [https://itoi.jp/M5Stack.html?fbclid=IwAR0HmmXVnrWot6k04CB0n982jV-DUhQhYaWU-cpXmXGFnWx4r418dmFnFPY#M5Atom-5V_IO_Issue](https://itoi.jp/M5Stack.html?fbclid=IwAR0HmmXVnrWot6k04CB0n982jV-DUhQhYaWU-cpXmXGFnWx4r418dmFnFPY#M5Atom-5V_IO_Issue)  
 [https://github.com/betaEncoder/CH551_Breakout_Board](https://github.com/betaEncoder/CH551_Breakout_Board)  
 
