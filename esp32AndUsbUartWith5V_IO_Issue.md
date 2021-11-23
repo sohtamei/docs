@@ -15,7 +15,7 @@
 * USB-UART CH552を5V IOで使用しており、ESP32のMODE切り替えであるIO0が5Vにpullupされている。  
 電源電圧が高めでIO0が約4.2V以上にになるとWiFi接続率が悪化する。（赤線）  
 
-<img src="https://user-images.githubusercontent.com/43091864/142955542-efc8bc47-85cc-40d2-80c8-f6817aebb828.png" width="700" />  
+<img src="https://user-images.githubusercontent.com/43091864/142976220-d12cd850-f606-48c5-8267-f857fb1d0c25.png" width="700" />  
 
 <img src="https://user-images.githubusercontent.com/43091864/136226442-2dede038-4f1f-422c-9f00-3537fa1c2d30.png" width="600" />  
 
