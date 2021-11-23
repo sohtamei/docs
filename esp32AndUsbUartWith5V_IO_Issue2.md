@@ -7,8 +7,7 @@ Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こ
 [usb_ft232bm.bin](https://github.com/sohtamei/docs/blob/master/images/usb_ft232bm.bin)  
 [https://github.com/ciniml/M5_CH55x](https://github.com/ciniml/M5_CH55x)
 
-M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデバイスが対象です。  
-私の環境ではなぜか今日時点で「ATOM WiFi不安定問題」が再現できなかったため、対策FWによりWiFiが改善するか確認できませんでした。
+M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデバイスが対象です、不具合の詳細は[こちら](esp32AndUsbUartWith5V_IO_Issue.html)。  
 
 ## Downloadモード設定
 
