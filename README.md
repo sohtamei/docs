@@ -17,7 +17,7 @@
 
 ## 市販デバイス不具合情報
 
-[CH552 DownloadモードJIGケーブル使い方](CH552JigCable.md)
+[CH552 DownloadモードJIGケーブル使い方](CH552DownloadAdaptor.md)
 
 [ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ](esp32AndUsbUartWith5V_IO_Issue.md)
 
