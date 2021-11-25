@@ -1,5 +1,7 @@
 # ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ（FW更新方法）
 
+(2021/11/25更新)
+
 ## 改善FWについて
 
 Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こちらのFWを書き込むことでWiFi不安定問題が解決することが確認されました。
@@ -9,11 +11,16 @@ Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こ
 
 M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデバイスが対象です。不具合の詳細は[こちら](esp32AndUsbUartWith5V_IO_Issue.html)。  
 
-## Downloadモード設定
+## 1. WCHISPToolをインストール
 
-CH552を書き込むためにはCH552をDownloadモードにする必要があります。まず「FT_Prog」方式を試し、ダメだったら「専用ケーブル方式」を試して下さい。
+まずWCHISPToolでデバイスドライバとFW書き込みアプリをインストールします。  
+[WCHISPTool](http://www.wch.cn/downloads/WCHISPTool_Setup_exe.html) にアクセスし、[下载] を押してダウンロードしてインストール。  
 
-### 1. FT_Prog方式
+## 2. Downloadモード設定
+
+FW書き込みの前にCH552をDownloadモードにする必要があります。まず「FT_Prog」方式を試し、ダメだったら「専用ケーブル方式」を試して下さい。
+
+### (A) FT_Prog方式
 
 下記URLからFT_Progをダウンロードしてインストールします。  
 [https://ftdichip.com/utilities/#ft_prog](https://ftdichip.com/utilities/#ft_prog)  
@@ -44,7 +51,7 @@ CH552を書き込むためにはCH552をDownloadモードにする必要があ�
 |TimerCAM||NG|
 |unitV||OK|
 
-### 2. 専用ケーブル方式
+### (B) 専用ケーブル方式
 
 #### 必要なもの
 
@@ -72,14 +79,13 @@ CH552を書き込むためにはCH552をDownloadモードにする必要があ�
  必ずM5デバイス、パソコンの順に接続して下さい。デバイスマネージャ上で [USB Module] が表示されたらDownloadモードに入りました。  
   ![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
 
-## FW書き込み
+## 3. FW書き込み
 
-[WCHISPTool](http://www.wch.cn/downloads/WCHISPTool_Setup_exe.html) にアクセスし、[下载] を押してダウンロードしてインストール。  
-[IDA氏のFW](https://github.com/sohtamei/docs/blob/master/images/usb_ft232bm.bin) をダウンロードして書き込み。
+[IDA氏のFW](https://github.com/sohtamei/docs/blob/master/images/usb_ft232bm.bin) をダウンロードし、1 のWCHISPToolでFW書き込み。
 
 ![image](https://user-images.githubusercontent.com/43091864/142724843-0a87950c-aba7-4282-b02d-80fb3d01ba5d.png)
 
-書き込み完了後、「専用ケーブル方式」の場合は必ず改造していないUSB-Cケーブルに繋ぎなおして下さい。
+FW書き込み完了後、「専用ケーブル方式」の場合は必ず改造していないUSB-Cケーブルに繋ぎなおして下さい。
 
 ### 参考
 
