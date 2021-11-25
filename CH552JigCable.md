@@ -1,6 +1,6 @@
-# CH552 DownloadモードJIGケーブル使い方
+# CH552 Downloadモードアダプタ使い方
 
-「家電のケンちゃん」店舗にて販売させて頂いている「CH552 DownloadモードJIGケーブル」使い方です。 
+「家電のケンちゃん」店舗にて販売させて頂いている「CH552 Downloadモードアダプタ」使い方です。 
 
 <img src="https://user-images.githubusercontent.com/43091864/143476161-d4deb0f5-6200-4323-85ae-20939716ee3a.JPG" width="300" /> <img src="https://user-images.githubusercontent.com/43091864/143490581-eaef78de-33da-46a0-92f0-cf8d9128417b.JPG" width="300" />  
 
@@ -20,7 +20,7 @@ M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデ�
 
 ### 2. Downloadモード設定
 
-「CH552 DownloadモードJIGケーブル」をM5デバイスに接続し、パソコンに接続。必ずM5デバイス、パソコンの順に接続して下さい。
+「CH552 Downloadモードアダプタ」をUSB-TypeCケーブルでM5デバイスに接続し、パソコンに接続。必ずアダプタとM5デバイス、アダプタとパソコンの順に接続して下さい。
 デバイスマネージャ上で[Interface] - [USB Module] が表示されます。  
 ![image](https://user-images.githubusercontent.com/43091864/143491010-95d7b2ff-8e50-4df5-a0a5-d6667457af2b.png)
 
@@ -30,7 +30,7 @@ M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデ�
 
 ![image](https://user-images.githubusercontent.com/43091864/142724843-0a87950c-aba7-4282-b02d-80fb3d01ba5d.png)
 
-FW書き込み完了後、「専用ケーブル方式」の場合は必ず改造していないUSB-Cケーブルに繋ぎなおして下さい。
+FW書き込み完了後、「CH552 Downloadモードアダプタ」を外してPCに接続して下さい。
 
 ### ソースコード
 
