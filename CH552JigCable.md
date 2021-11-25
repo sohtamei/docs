@@ -1,10 +1,10 @@
-# CH552 Downloadモードアダプタ使い方
+## CH552 Downloadモードアダプタ使い方
 
 「家電のケンちゃん」店舗にて販売させて頂いている「CH552 Downloadモードアダプタ」使い方です。 
 
 <img src="https://user-images.githubusercontent.com/43091864/143476161-d4deb0f5-6200-4323-85ae-20939716ee3a.JPG" width="300" /> <img src="https://user-images.githubusercontent.com/43091864/143490581-eaef78de-33da-46a0-92f0-cf8d9128417b.JPG" width="300" />  
 
-## 改善FWについて
+### 改善FWについて
 
 Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされ
 ました。こちらのFWを書き込むことでWiFi不安定問題が解決することが確認されました。
@@ -15,8 +15,8 @@ M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデ�
 
 ### 1. WCHISPToolをインストール
 
-まずWCHISPToolでデバイスドライバとFW書き込みアプリをインストールします。  
 [WCHISPTool](http://www.wch.cn/downloads/WCHISPTool_Setup_exe.html) にアクセスし、[下载] を押してダウンロードしてインストール。  
+![image](https://user-images.githubusercontent.com/43091864/143491430-0f0e63d2-0ecc-457d-ba24-a6e187a7d476.png)
 
 ### 2. Downloadモード設定
 
