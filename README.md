@@ -11,19 +11,23 @@
 
 [つくるっちでのDTR/RTS制御について](RTS_DTR_Control.md)
 
-[NTT光ルーター PR-400MI/RT-400MI/RV-440MI 不具合について](PR400MI_issue.md)
-
 [つくるっち現時点の不具合](CurrentIssues.md)
 
 [Scratch3.0で独自extensionを使ったサンプルプログラムをリンククリックで開く方法](Scratch3.0LinkToSample.md)
 
-[360度サーボFS90R問題について](360ServoIssue.md)
+## 市販デバイス不具合情報
+
+[CH552 DownloadモードJIGケーブル使い方](CH552JigCable.md)
 
 [ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ](esp32AndUsbUartWith5V_IO_Issue.md)
 
 [ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ(FW更新方法)](esp32AndUsbUartWith5V_IO_Issue2.md)
 
 [unitCamなどのESP32カメラのWiFi問題まとめ](ESP32CameraIssue.md)
+
+[360度サーボFS90R問題について](360ServoIssue.md)
+
+[ESP32とNTT光ルーター PR-400MI/RT-400MI/RV-440MI 不具合について](PR400MI_issue.md)
 
 ## USB2BTサポート情報
 
