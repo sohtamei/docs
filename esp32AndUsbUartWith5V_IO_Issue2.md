@@ -87,7 +87,7 @@ FW書き込みの前にCH552をDownloadモードにする必要があります�
 
 FW書き込み完了後、「専用ケーブル方式」の場合は必ず改造していないUSB-Cケーブルに繋ぎなおして下さい。
 
-### 参考
+## 参考
 
 下記サイトを参考にさせて頂きました。  
 [https://github.com/m5stack/M5_CH55x](https://github.com/m5stack/M5_CH55x)  
@@ -95,8 +95,7 @@ FW書き込み完了後、「専用ケーブル方式」の場合は必ず改造
 [https://itoi.jp/M5Stack.html?fbclid=IwAR0HmmXVnrWot6k04CB0n982jV-DUhQhYaWU-cpXmXGFnWx4r418dmFnFPY#M5Atom-5V_IO_Issue](https://itoi.jp/M5Stack.html?fbclid=IwAR0HmmXVnrWot6k04CB0n982jV-DUhQhYaWU-cpXmXGFnWx4r418dmFnFPY#M5Atom-5V_IO_Issue)  
 [https://github.com/betaEncoder/CH551_Breakout_Board](https://github.com/betaEncoder/CH551_Breakout_Board)  
 
-
-### （中止）build環境
+## （中止）build環境
 
 ついにM5Stack社よりCH552ソース公開して頂きました。  
 [https://github.com/m5stack/M5_CH55x](https://github.com/m5stack/M5_CH55x)  
