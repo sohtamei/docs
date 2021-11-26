@@ -20,7 +20,9 @@ M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデ�
 
 ### 2. Downloadモード設定
 
-「CH552 Downloadモードアダプタ」をUSB-TypeCケーブルでM5デバイスに接続し、パソコンに接続。必ずアダプタとM5デバイス、アダプタとパソコンの順に接続して下さい。
+「CH552 Downloadモードアダプタ」をUSB-TypeCケーブルでM5デバイスに接続し、パソコンに接続。必ずアダプタとM5デバイス、アダプタとパソコンの順に接続して下さい。  
+<img src="https://user-images.githubusercontent.com/43091864/143510252-22b4b93d-65f1-472b-b397-1c5b16586450.JPG" width="500" />
+
 デバイスマネージャ上で[Interface] - [USB Module] が表示されます。  
 ![image](https://user-images.githubusercontent.com/43091864/143491010-95d7b2ff-8e50-4df5-a0a5-d6667457af2b.png)
 
