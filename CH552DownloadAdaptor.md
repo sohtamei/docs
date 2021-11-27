@@ -11,6 +11,9 @@ Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされ
 
 [usb_ft232bm.bin](https://github.com/sohtamei/docs/blob/master/images/usb_ft232bm.bin)  
 
+**※このFWは有志による非公式FWです、M5Stack社からはまだ対策前/対策後どちらのFWも公開されていません。**  
+使用については恐縮ですが自己責任にてお願いできますでしょうか。  
+
 M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデバイスが対象です。不具合の詳細は[こちら](esp32AndUsbUartWith5V_IO_Issue.html)。  
 
 ### 1. WCHISPToolをインストール
