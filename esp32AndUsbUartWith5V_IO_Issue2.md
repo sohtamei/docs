@@ -98,6 +98,9 @@ FW書き込み完了後、「専用ケーブル方式」の場合は必ず改造
 [https://itoi.jp/M5Stack.html?fbclid=IwAR0HmmXVnrWot6k04CB0n982jV-DUhQhYaWU-cpXmXGFnWx4r418dmFnFPY#M5Atom-5V_IO_Issue](https://itoi.jp/M5Stack.html?fbclid=IwAR0HmmXVnrWot6k04CB0n982jV-DUhQhYaWU-cpXmXGFnWx4r418dmFnFPY#M5Atom-5V_IO_Issue)  
 [https://github.com/betaEncoder/CH551_Breakout_Board](https://github.com/betaEncoder/CH551_Breakout_Board)  
 
+下記サイトでも公開中
+[https://community.m5stack.com/topic/3768/new-ch552-firmware-for-short-wifi-issue-of-m5atom-stick-timercam-etc](https://community.m5stack.com/topic/3768/new-ch552-firmware-for-short-wifi-issue-of-m5atom-stick-timercam-etc)
+
 ## （中止）build環境
 
 ついにM5Stack社よりCH552ソース公開して頂きました。  
