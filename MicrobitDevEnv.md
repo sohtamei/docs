@@ -12,7 +12,7 @@ microbit v1だと600行以上で「there is no storage space left」になる、
 - **mbed** (C言語)  
 C言語では一番使いやすくライブラリも充実した開発環境。microbit v2非対応。
 - **nordic SDK** (C言語)  
-BLE関連のライブラリは充実しているがUARTやI2Cなどのライブラリを自作する必要がある？ 使うのが大変。Keil uVisionなど有償の統合開発環境（ICE、ライブラリ）を使うのが一般的のよう。
+BLE関連のライブラリは充実しているがUARTやI2Cなどのライブラリを自作する必要がある？ 使うのが大変。Keil uVisionなど有償の統合開発環境（ICE、ライブラリ）を使うのが一般的のよう。  
 <img src="https://tech.microbit.org/docs/software/assets/software-overview.svg" width="300" />
 https://tech.microbit.org/software/runtime/
 
