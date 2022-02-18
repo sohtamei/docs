@@ -12,62 +12,70 @@
 ### 登壇者情報
 #### 田中章愛氏
 ソニーインタラクティブエンタテインメント株式会社  
+8pino  
 https://qiita.com/akichika/items/4c282c638b38681050d9
+
+“放課後” の研究開発を促進する企業内メイカースペース「SAP Creative Lounge」─ソニー株式会社 田中章愛さんインタビュー（前編）  
+https://makezine.jp/blog/2014/10/interview_sony_tanaka_01.html  
+Makerとして社外活動で学んだことをソニーで活かしたい─ソニー株式会社 田中章愛さんインタビュー（後編）  
+https://makezine.jp/blog/2014/10/interview_sony_tanaka_02.html  
+MakerCon 2015セッションA「個人のメイカーが活躍し、メーカーという企業にイノベーションをもたらす『グレーゾーン』の大切さ」  
+https://makezine.jp/blog/2015/12/makercon2015_report_session_a.html
+
+
+toio  
+https://makezine.jp/blog/2017/07/toio.html  
 
 #### 原田氏
 (元)三月兎・家電のケンちゃん  
+[三月兎閉店について](images/harada.pdf)
 
 #### そーたメイ氏(冨田)
-ソニー株式会社
+ソニー株式会社  
+
+[もっぷ](images/mop_public.mp4)  
+USB2BT　開発者”そーた中の人”に聞いてみました。  
+https://bit-trade-one.co.jp/blog/20141222/  
+
+#### ThousanDIY氏
+メーカー勤務(札幌市)  
 
 
-●イベント第一部：各登壇者による発表（1h）
-・登壇
-　　田中さん（15min）
-　　原田さん（15min）
-　　そーたメイさん（10min）
-　　ThousanDIYさん（10min）※北海道でのリモート勤務のためZoom参加
-・質問 (冨田)
+#### イベント第一部：各登壇者による発表（1h）
+・登壇  
+　　田中さん（15min）  
+　　原田さん（15min）  
+　　そーたメイさん（10min）  
+　　ThousanDIYさん（10min）※北海道でのリモート勤務のためZoom参加  
+・質問 (冨田)  
 
-　時間短縮のため質問はyoutubeチャット上でのライブ中の回答と、4人の発表後に司会者が質問をピックアップし登壇者に質問。
-　ライブ配信 ＆ ThousanDIY登壇を除いたアーカイブ配信
+　時間短縮のため質問はyoutubeチャット上でのライブ中の回答と、4人の発表後に司会者が質問をピックアップし登壇者に質問。  
 
-●イベント第二部：座談会（1h）
+参考 - 中垣氏インタビュー @ creative lounge  
+https://www.youtube.com/watch?v=Ry0nquAeymw
 
-　フリーライター淺野義弘（進行）
-　田中章愛さん
-　家電のケンちゃん 原田さん
-　そーたメイ
-　その他（淺野氏と別途調整）
+#### イベント第二部：座談会（1h）
+　動画配信なし。淺野義弘が対談記事を執筆、ネットメディアに掲載  
+　座談の話題としていくつか質問事項を登壇者に振っておくが、話題に沿った座談会にするか完全なフリートークにするか今後調整  
+　　- 同人HWをやる目的と得られたもの  
+　　- コロナ下でどうなったか  
+　　- Maker faire Tokyo vs スイッチサイエンスマーケットプレース vs 家電のケンちゃん  
 
-　動画配信なし。淺野義弘が対談記事を執筆、ネットメディアに掲載
-　座談の話題としていくつか質問事項を登壇者に振っておくが、話題に沿った座談会にするか完全なフリートークにするか今後調整
-　　- 同人HWをやる目的と得られたもの
-　　- コロナ下でどうなったか
-　　- Maker faire Tokyo vs スイッチサイエンスマーケットプレース vs 家電のケンちゃん
+#### ToDo
 
+1. 登壇者、ライター淺野氏、ニュースサイトfabcross編集部交渉
 
-●ToDo、作業分担
-
-0. 登壇者、ライター淺野氏、ニュースサイトfabcross編集部交渉
 　　冨田、淺野さん
 　　fabcross編集部以外は完了
 
-1. 外部ライター取材、外部メディア記事掲載についてのSEC広報確認
-　　SEC冨田
+2. SEC広報確認、SIE広報確認
 
-2. 登壇でのtoio言及についてのSIE広報確認
-　　SIE田中章愛さん
+　　SEC冨田、SIE田中章愛さん
 
-3. basecampイベント告知サイト準備 https://basecamp-online.com/event/sony-pcl-professional/
-4. PPz文案作成
-　　作成：冨田、上里さん
-　　確認：章愛さん、原田さん、ThousanDIYさん
-
-5. PPz配信
-　　冨田
+3. イベント告知
 
 6. 登壇者との登壇・対談内容の調整
+
 　　淺野さん、章愛さん、冨田、ThousanDIYさん
 
 7. 記事掲載メディア決定
@@ -76,19 +84,17 @@ https://qiita.com/akichika/items/4c282c638b38681050d9
 ・portとの機材手配、機材リハーサル
 　　冨田
 
-・当日イベントスタッフ
+・当日イベントスタッフ  
 　　冨田（終日）、未定。。
 
 
-●参考
+#### 参考
 章愛さんtoio関連対談例
-https://note.springin.org/n/n2c996b2b8054
-https://note.springin.org/n/n2a42b9dc8720
-https://note.springin.org/n/n76e07a61473f
-https://note.springin.org/n/n6c3e493eeede
-
 https://news.denfaminicogamer.jp/interview/211207a
 
 https://www.youtube.com/watch?v=Ry0nquAeymw
 
 https://toio.io/special/interview/?id=specialTalk
+
+#### メモ  
+私は活動の主体をSAPなどの弊社社内技術コンペへの挑戦とし、そーたメイ活動/USB2BTはその試行錯誤の中から「たまたま」生まれてしまったものですが、社内技術コンペへの挑戦は未だに成功しておりません。技術コンペによる新規商品化は弊社内でも非常に苦労しているのですが、その理由は「開発費用の高さと開発期間の長さ」「ソニーというブランドによる制約」の２つと考えています。前者については同人HWという解決方法といくつかのヒット商品があり、USB2BTはシリーズ8000台販売を達成しました。現在「同人HWと、ソニーないしソニー商品との協業」を目指していくつかの商品開発を進めております。後者の「ソニーというブランドによる制約」については田中章愛やThousanDIYが著名アニメ監督のような一つのブランドであり、多くのファンを獲得しています。そーたメイもファンを増やすことを目指して活動しています。
