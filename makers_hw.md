@@ -126,7 +126,7 @@ https://makezine.jp/blog/2015/12/makercon2015_report_session_a.html
 
 
 ## 参考
-章愛さんtoio関連対談例
+章愛さんtoio関連対談例  
 https://news.denfaminicogamer.jp/interview/211207a
 
 https://www.youtube.com/watch?v=Ry0nquAeymw
