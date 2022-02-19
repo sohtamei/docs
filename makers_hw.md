@@ -83,6 +83,7 @@ https://makezine.jp/blog/2015/12/makercon2015_report_session_a.html
 
 ### そーたメイ 抜粋
 [もっぷ](images/mop_public.mp4)  
+<iframe width="560" height="315" src="https://www.youtube.com/embed/ivM1oftP0Ec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 もっぷはサップや、HESブリッジなどの社内コンテストで落選したものと、ヒミツ基地で作ったものが対象です。ソニー社員の個人の趣味・ボランティア活動として、社外協力会社・販売店と協力して電子キットや商品を開発・製造・販売します。  
 
 特徴１：プレゼン資料不要、実際の商品でアピールします。**好きなだけソースコードや回路図がかけます**  
