@@ -17,7 +17,7 @@ https://makezine.jp/blog/2017/07/toio.html
 
 #### 原田氏
 (元)三月兎・家電のケンちゃん  
-[三月兎閉店について](images/harada.pdf)
+[三月兎閉店について](https://sohtamei.github.io/docs/images/harada.pdf)
 
 #### そーたメイ氏(冨田)
 ソニー株式会社  
