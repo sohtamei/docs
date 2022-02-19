@@ -82,9 +82,7 @@ https://makezine.jp/blog/2015/12/makercon2015_report_session_a.html
 小林さんが「今日の話のなかで『グレーゾーン』という言葉は10回以上も出てきた。これがキーワードですか」との質問に対して、田中さんは「ルールは決めきれない。決めすぎるとつまらなくなったり、チャレンジできなくなることがある」と答える。そうしたリスクになりかねない部分をルールで「全部ダメ」とすることは簡単なため、そういう手段を選びがちだ。だが、そうすると今度は、できなくなることが増えるという。「あえて（グレーゾーン）を許容して、（参加者の）リテラシーを上げていこうという感じ」（田中さん）。  
 
 ### そーたメイ 抜粋
-[もっぷ](images/mop_public.mp4)  
 [もっぷ](https://sohtamei.github.io/docs/images/mop_public.mp4)  
-<iframe width="560" height="315" src="https://www.youtube.com/embed/ivM1oftP0Ec" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>  
 もっぷはサップや、HESブリッジなどの社内コンテストで落選したものと、ヒミツ基地で作ったものが対象です。ソニー社員の個人の趣味・ボランティア活動として、社外協力会社・販売店と協力して電子キットや商品を開発・製造・販売します。  
 
 特徴１：プレゼン資料不要、実際の商品でアピールします。**好きなだけソースコードや回路図がかけます**  
