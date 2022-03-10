@@ -20,4 +20,4 @@ USBの規格上は最短で1ms周期でのデータ読み取りが規定され�
 
 の3タイプがあるようです。 
 BluetoothとUSBの通信方式の違いから発生する問題で、対応は困難です、非常に申し訳ありません。。  
-![image](https://user-images.githubusercontent.com/43091864/157574129-0143100d-1b48-4588-a6ac-48e154490388.png)
+<img src="https://user-images.githubusercontent.com/43091864/157574129-0143100d-1b48-4588-a6ac-48e154490388.png" width="400" />
