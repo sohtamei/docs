@@ -16,12 +16,12 @@
 
 ### 第一部
 　**メイカーズ活動についてのライトニングトーク**  
-　　そーたメイ（冨田）  
-　　水落 大  
-　　池上 恵理  
-　　ThousanDIY（社外）  
+　　そーたメイ（冨田）　[facebook](https://www.facebook.com/sohta02), [twitter](https://twitter.com/sohta02)   
+　　水落 大　[webサイト](https://mizumasa.net/)  
+　　池上 恵理　[facebook](https://www.facebook.com/eri.yamamoto.942)  
+　　ThousanDIY（社外）　[note](https://note.com/tomorrow56/), [facebook](https://www.facebook.com/thousandiy/)    
 　　佐藤 弘樹  
-　　むらさき（社外）  
+　　むらさき（社外）　[facebook](https://www.facebook.com/saki.murata.75)  
 　　他  
 
 ### 第二部
