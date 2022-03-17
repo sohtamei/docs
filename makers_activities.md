@@ -11,14 +11,18 @@
 　[https://noizarchitects.com/archives/works/sony-bridge-terminal](https://noizarchitects.com/archives/works/sony-bridge-terminal)  
 　[https://www.facebook.com/BRIDGETERMINAL/](https://www.facebook.com/BRIDGETERMINAL/)  
 
+### イベント配信、公開方法
+オンライン配信はソニー社内のみ。社外向けにイベントレポート記事を作成＆公開予定。  
+
 ### 第一部
 　**メイカーズ活動についてのライトニングトーク**  
 　　そーたメイ（冨田）  
 　　水落 大  
 　　池上 恵理  
-　　ThousanDIY  
+　　ThousanDIY（社外）  
 　　佐藤 弘樹  
-　　他
+　　むらさき（社外）
+　　他  
 
 ### 第二部
 　**対談**  
