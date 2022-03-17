@@ -8,8 +8,8 @@
 　（予定）
 
 場所：ソニーシティ大崎24F BridgeTerminalからオンライン配信  
-　[https://noizarchitects.com/archives/works/sony-bridge-terminal](https://noizarchitects.com/archives/works/sony-bridge-terminal)
-　[https://www.facebook.com/BRIDGETERMINAL/](https://www.facebook.com/BRIDGETERMINAL/)
+　[https://noizarchitects.com/archives/works/sony-bridge-terminal](https://noizarchitects.com/archives/works/sony-bridge-terminal)  
+　[https://www.facebook.com/BRIDGETERMINAL/](https://www.facebook.com/BRIDGETERMINAL/)  
 
 ### 第一部
 　**メイカーズ活動についてのライトニングトーク**  
