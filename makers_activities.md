@@ -20,7 +20,7 @@
 　　水落 大　[webサイト](https://mizumasa.net/)  
 　　池上 恵理　[facebook](https://www.facebook.com/eri.yamamoto.942)  
 　　ThousanDIY（社外）　[note](https://note.com/tomorrow56/), [facebook](https://www.facebook.com/thousandiy/)    
-　　むらさき（社外）　[facebook](https://www.facebook.com/saki.murata.75)  
+　　（むらさき）（社外、都合が合えば）　[facebook](https://www.facebook.com/saki.murata.75)  
 　　佐藤 弘樹  
 　　他  
 
