@@ -46,3 +46,4 @@
 - 淺野氏執筆 関連記事  
 「委託、クラファン、サブスク——「個人がものを作って売る」の今」  
 [https://fabcross.jp/topics/special/20220202_zadankai_2022.html](https://fabcross.jp/topics/special/20220202_zadankai_2022.html)  
+ 
