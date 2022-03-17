@@ -43,6 +43,6 @@
 - このイベントは2018/5に行った下記の「社外活動の発表会」の続きになります。（SEN回線限定）  
 [https://sonyjpn.sharepoint.com/sites/ws-biz/ws/topics.aspx?basecamp&mode=journal&mid=44&jid=10](https://sonyjpn.sharepoint.com/sites/ws-biz/ws/topics.aspx?basecamp&mode=journal&mid=44&jid=10)  
 
-- 浅野氏執筆 関連記事  
+- 淺野氏執筆 関連記事  
 「委託、クラファン、サブスク——「個人がものを作って売る」の今」  
 [https://fabcross.jp/topics/special/20220202_zadankai_2022.html](https://fabcross.jp/topics/special/20220202_zadankai_2022.html)  
