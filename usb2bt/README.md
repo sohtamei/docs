@@ -1,14 +1,17 @@
 # USB2BTサポート情報
-[USB2BTplus キー置換動作確認](CheckReplaceKey.md)  
+* [USB2BTplus キー置換動作確認](CheckReplaceKey.md)  
 
-[ジェイダブル社キーボード MKBJ24/MKBJ35 とUSB2BTplusとの組み合わせ使用について](MKBJ35.md)  
+* [ジェイダブル社キーボード MKBJ24/MKBJ35 とUSB2BTplusとの組み合わせ使用について](MKBJ35.md)  
 
-[USB2BT/plusでUSBマウスの挙動がおかしい不具合について](usb2bt_mouseIssue.md)
+* [USB2BT/plusでUSBマウスの挙動がおかしい不具合について](usb2bt_mouseIssue.md)
 
-[Quattro TKL](QuattroTKL.md)
+* [Quattro TKL](QuattroTKL.md) ver1.004
+
+* iOS & mouse & Non-JP  
+http://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse  
 
 
-|release date|アプリ|PIC1|PIC2|WLAN|memo|
+|date|アプリ|PIC1|PIC2|WLAN|memo|
 |---|---|---|---|---|---|
 |2021/12/28|1.002|1.002|0.99|0.93|- 親指シフト設定が保存されない不具合修正|
 |2021/12/09|1.001|1.001|0.99|0.93|- RAZER HUNTSMAN MINIが動作しない不具合修正|
