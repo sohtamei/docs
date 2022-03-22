@@ -8,7 +8,7 @@
 * [Quattro TKL](QuattroTKL.md) ver1.004
 
 * iOS & mouse & Non-JP  
-[http://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.zip](http://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.zip)  
+[http://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip](http://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip)  
 
 
 |date|アプリ|PIC1|PIC2|WLAN|memo|
