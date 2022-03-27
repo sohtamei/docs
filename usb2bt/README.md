@@ -1,4 +1,8 @@
-# USB2BTサポート情報
+## 最新版設定アプリ、FW リリース  
+下記のリンクからダウンロードし、zipファイルを展開して下さい。  
+[USB2BTplus.zip](http://sohta02.web.fc2.com/release/USB2BTplus.zip)  
+
+## USB2BTサポート情報
 * [USB2BTplus キー置換動作確認](CheckReplaceKey.md)  
 
 * [ジェイダブル社キーボード MKBJ24/MKBJ35 とUSB2BTplusとの組み合わせ使用について](MKBJ35.md)  
@@ -10,7 +14,7 @@
 * iOS & mouse & Non-JP  
 [http://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip](http://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip)  
 
-
+## バージョン情報
 |date|アプリ|PIC1|PIC2|memo|
 |---|---|---|---|---|
 |2021/12/28|1.002|1.002|0.99|- 親指シフト設定が保存されない不具合修正|
