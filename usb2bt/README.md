@@ -15,6 +15,7 @@
 [usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip](http://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip)  
 
 ## バージョン情報  
+
 |date|アプリ|PIC1|PIC2|memo|
 |---|---|---|---|---|
 |2021/12/28|1.002|1.002|0.99|- 親指シフト設定が保存されない不具合修正|
