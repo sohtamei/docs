@@ -1,3 +1,5 @@
+[USB2BTトップ](http://sohta02.web.fc2.com/usb2bt.html)  
+
 ## 最新版設定アプリ、FW リリース  
 下記のリンクからダウンロードし、zipファイルを展開して下さい。  
 [USB2BTplus.zip](http://sohta02.web.fc2.com/release/USB2BTplus.zip)  
