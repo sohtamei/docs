@@ -10,7 +10,7 @@ The DebugView application starts and the communication log is displayed.
 * Stop capturing log.  
 ![image](https://user-images.githubusercontent.com/43091864/160297959-0e331d7d-92a0-48a7-992a-f0b433fce852.png)
 
-* Save log date.
+* Save log date.  
 The log can be saved by pressing [Save].  
 ![image](https://user-images.githubusercontent.com/43091864/160297687-7a27e1c9-dd3a-4447-a403-0322b22d90da.png)
 
