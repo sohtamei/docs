@@ -18,7 +18,7 @@
 　**メイカーズ活動についてのライトニングトーク**  
 　　そーたメイ（冨田）　[facebook](https://www.facebook.com/sohta02), [twitter](https://twitter.com/sohta02)   
 　　水落 大　[webサイト](https://mizumasa.net/)  
-　　池上 恵理　[facebook](https://www.facebook.com/eri.yamamoto.942)  
+　　池上 恵理　[facebook](https://www.facebook.com/eri.yamamoto.942), [twitter](https://twitter.com/dango_shippo)  
 　　ThousanDIY（社外）　[note](https://note.com/tomorrow56/), [facebook](https://www.facebook.com/thousandiy/)    
 　（むらさき）（社外、都合が合えば）　[facebook](https://www.facebook.com/saki.murata.75)  
 　　佐藤 弘樹  
