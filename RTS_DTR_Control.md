@@ -14,7 +14,7 @@
 | |ATmega328p|WemosD1R32|QCAI|Koov/SAMD|
 |---|---|---|---|---|
 |Teraterm<br />接続中DTR=L,RTS=L|Y(接続時)|Y(切断時) `※PC依存ありそう`<br />DTR↑から400us後にRTS↑|同左？|なし|
-|Tukurutch3.0<br />接続中DTR=L,RTS=L|Y(接続時)|N<br />RTSとDTRが同時↑|Y(切断時)| - |
+|Tukurutch3.0<br />接続中DTR=L,RTS=L|Y(接続時)|Y(切断時)<br />DTR↑、RTS↑|Y(切断時)<br />.| - |
 |Tukurutch2.0<br />接続中DTR=L,RTS=H|Y(接続時)|Y(切断時ソフトRESET)<br />`※接続中のRESETボタンで`<br />`BOOTモードになる`|同左|Y(切断時ソフトRESET)|
 
 DevkitCの回路図より  
