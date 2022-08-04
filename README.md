@@ -12,7 +12,7 @@
 
 [ESP32とNTT光ルーター PR-400MI/RT-400MI/RV-440MI 不具合について](PR400MI_issue.md)
 
-## つくるっち / リモコンロボ 技術情報
+## つくるっち
 [microbit開発環境について(ArduinoIDE、他）](MicrobitDevEnv.md)
 
 [アナログリモコン ライブラリ](https://github.com/sohtamei/analogRemote)
