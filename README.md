@@ -17,17 +17,13 @@
 
 [アナログリモコン ライブラリ](https://github.com/sohtamei/analogRemote)
 
-[M5Stack, M5StickC プログラミング情報](M5.md)
-
-[Koov プログラミング情報](Koov.md)
-
 [スクラッチとmBlock、つくるっちについて](Scratch_mBlock.md)
 
 [つくるっちでのDTR/RTS制御について](RTS_DTR_Control.md)
 
-[つくるっち現時点の不具合](CurrentIssues.md)
-
 [Scratch3.0で独自extensionを使ったサンプルプログラムをリンククリックで開く方法](Scratch3.0LinkToSample.md)
+
+[つくるっちexe の ArduinoIDE 1.8.11→1.8.19, ESP32 lib 1.0.4→2.0.4更新メモ](ESP32Arduino2.0.4.md)
 
 ## USB2BTサポート情報
 
