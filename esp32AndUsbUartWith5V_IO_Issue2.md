@@ -1,8 +1,8 @@
-# ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ（FW更新方法）
+## ESP32と5V IOのUSB UARTデバイスによるWifi問題まとめ（FW更新方法）
 
 (2021/11/25更新)
 
-## 改善FWについて
+### 改善FWについて
 
 Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こちらのFWを書き込むことでWiFi不安定問題が解決することが確認されました。
 
@@ -14,16 +14,16 @@ Kenta IDA氏よりGPIO0とEN=3.3Vの対策FWがリリースされました。こ
 
 M5Atom、M5StickC/plus、TimerCAM、UnitVなどのCH552を使用しているデバイスが対象です。不具合の詳細は[こちら](esp32AndUsbUartWith5V_IO_Issue.html)。  
 
-## 1. WCHISPToolをインストール
+### 1. WCHISPToolをインストール
 
 まずWCHISPToolでデバイスドライバとFW書き込みアプリをインストールします。  
 [WCHISPTool](http://www.wch.cn/downloads/WCHISPTool_Setup_exe.html) にアクセスし、[下载] を押してダウンロードしてインストール。  
 
-## 2. Downloadモード設定
+### 2. Downloadモード設定
 
 FW書き込みの前にCH552をDownloadモードにする必要があります。まず「FT_Prog」方式を試し、ダメだったら「専用ケーブル方式」を試して下さい。
 
-### (A) FT_Prog方式
+#### (A) FT_Prog方式
 
 下記URLからFT_Progをダウンロードしてインストールします。  
 [https://ftdichip.com/utilities/#ft_prog](https://ftdichip.com/utilities/#ft_prog)  
@@ -54,7 +54,7 @@ FW書き込みの前にCH552をDownloadモードにする必要があります�
 |TimerCAM||NG|
 |unitV||OK|
 
-### (B) 専用ケーブル方式
+#### (B) 専用ケーブル方式
 
 #### 必要なもの
 
@@ -82,7 +82,7 @@ FW書き込みの前にCH552をDownloadモードにする必要があります�
  必ずM5デバイス、パソコンの順に接続して下さい。デバイスマネージャ上で [USB Module] が表示されたらDownloadモードに入りました。  
   ![image](https://user-images.githubusercontent.com/43091864/142723703-ad1b8943-6412-4ed2-aad6-f3000517baea.png)  
 
-## 3. FW書き込み
+### 3. FW書き込み
 
 [IDA氏のFW](https://github.com/sohtamei/docs/blob/master/images/usb_ft232bm.bin) をダウンロードし、1 のWCHISPToolでFW書き込み。
 
@@ -90,7 +90,7 @@ FW書き込みの前にCH552をDownloadモードにする必要があります�
 
 FW書き込み完了後、「専用ケーブル方式」の場合は必ず改造していないUSB-Cケーブルに繋ぎなおして下さい。
 
-## 参考
+### 参考
 
 下記サイトを参考にさせて頂きました。  
 [https://github.com/m5stack/M5_CH55x](https://github.com/m5stack/M5_CH55x)  
@@ -101,7 +101,7 @@ FW書き込み完了後、「専用ケーブル方式」の場合は必ず改造
 下記サイトでも公開中
 [https://community.m5stack.com/topic/3768/new-ch552-firmware-for-short-wifi-issue-of-m5atom-stick-timercam-etc](https://community.m5stack.com/topic/3768/new-ch552-firmware-for-short-wifi-issue-of-m5atom-stick-timercam-etc)
 
-## （中止）build環境
+### （中止）build環境
 
 ついにM5Stack社よりCH552ソース公開して頂きました。  
 [https://github.com/m5stack/M5_CH55x](https://github.com/m5stack/M5_CH55x)  
