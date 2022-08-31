@@ -9,5 +9,5 @@
 |ESP32カメラ|✔| |✔| |
 |PCカメラ| |✔|✔|✔|
 |scratch Link|✔|✔|✔|✔|
-|sampleプログラムへのdirect link|✔|✔| | |
+|sampleプログラムへのdirect link|✔|✔|✔| |
 |cookie|✔|✔|✔| |
