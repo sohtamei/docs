@@ -39,3 +39,33 @@ npm install
 npm link
 ~~~
 
+* scratch-vm  
+~~~
+cd scratch-vm
+npm install
+
+# 依存性エラーになるためver指定でinstall
+npm install @tensorflow/tfjs-core@"^2.8.6"
+npm install @tensorflow/tfjs-converter@"^2.8.6"
+npm install @tensorflow/tfjs-backend-webgl@"^2.8.6"
+npm install @tensorflow-models/facemesh
+npm install @tensorflow-models/handpose@"^0.0.6"   # 最新0.0.7だとエラー
+# 未使用 (ML2Scratch)
+npm install ml5@"^0.5.0"  # 最新0.12.2だとエラー
+
+npm link
+npm run build   # guiがdistを参照するため。toioなどうまくいったりいかなかったり
+~~~
+
+* scratch-gui  
+~~~
+npm install
+npm install react-responsive@"^4"
+
+rm -rf node_modules/scratch-render node_modules/scratch-vm
+npm link scratch-render scratch-vm
+npm start
+
+# エラーになるとき - render,vm側でエラーになるとリンクが外れてmoduleになるため確認。
+ls -l node_modules/scratch-render node_modules/scratch-vm
+~~~
