@@ -3,8 +3,8 @@
 つくるっち＋Koovでのプログラミングに対応しました。リモコンロボ同様 BitTradeOne社の「汎用赤外線リモコン」、「アナログリモコン」でロボットを操縦することができます。  
 **公式アプリではなく、まだ多数不具合があります。注意して下さい。**  
 Windowsのみ対応(MAC, iPad非対応)、USB接続のみ対応(BLE,Wifi接続非対応)です。  
-<a href="http://sohta02.web.fc2.com/images/MAQ04939_.mp4"><img src="images/MAQ04939_.png" width="320" height="240" border="0" /></a> クリックで再生  
-![image7](images/image7.png)
+<a href="http://sohta02.web.fc2.com/images/MAQ04939_.mp4"><img src="../images/MAQ04939_.png" width="320" height="240" border="0" /></a> クリックで再生  
+![image7](../images/image7.png)
 
 ### ダウンロード (つくるっち Koov版)
 
@@ -29,7 +29,7 @@ Windowsのみ対応(MAC, iPad非対応)、USB接続のみ対応(BLE,Wifi接続�
 - V0とV1にモーターを接続
 - V2にブザーを接続
 - K7に「ロボット用赤外線リモコン受信センサー」を接続  
-<img src="images/DSC04941_.jpg" width="300" height="273" border="0" /> クリックで拡大
+<img src="../images/DSC04941_.jpg" width="300" height="273" border="0" /> クリックで拡大
 
 ### 使い方（PC通信モード）
 - ロボットの電源を入れUSBで接続し、
