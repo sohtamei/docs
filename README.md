@@ -15,6 +15,8 @@
 ## つくるっち
 [microbit開発環境について(ArduinoIDE、他）](MicrobitDevEnv.md)
 
+[実行サーバ、OSと各デバイス動作まとめ](HttpHttpsIssue.md)
+
 [アナログリモコン ライブラリ](https://github.com/sohtamei/analogRemote)
 
 [スクラッチとmBlock、つくるっちについて](Scratch_mBlock.md)
