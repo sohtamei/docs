@@ -1,7 +1,7 @@
 ## サーバと各デバイス動作まとめ
 
 
-| |httpサーバ|httpsサーバ|npm start|index.html|
+| |httpサーバ|httpsサーバ|local|index.html|
 |---|:-:|:-:|:-:|:-:|
 |webSerial(FW書き込み、USB接続)| |✔|✔|FW書NG|
 |webBluetooth(BLE接続)| |✔|✔|✔|
