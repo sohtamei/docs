@@ -5,11 +5,11 @@
 下記PDFファイルを参照して下さい。  
 [images/lovyanGFX.extension.pdf](images/lovyanGFX.extension.pdf)
 
-参考：http://www.lcdwiki.com/Main_Page#SPI_Display
+参考：[http://www.lcdwiki.com/Main_Page#SPI_Display](http://www.lcdwiki.com/Main_Page#SPI_Display)
 
 ### アプリ
 
-https://sohta02.sakura.ne.jp/tukurutch/#000000531
+[https://sohta02.sakura.ne.jp/tukurutch/#000000531](https://sohta02.sakura.ne.jp/tukurutch/#000000531)
 
 ### FW
 
