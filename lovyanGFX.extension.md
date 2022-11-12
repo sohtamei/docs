@@ -14,6 +14,6 @@
 ### FW
 
 * ESP32 DevkitC：アプリで「書き込み」を選択  
-* ESP32S3 DevkitC：[つくるっちexe](https://github.com/sohtamei/TuKuRutchExe)をダウンロード、lovyanGFXs3を選択して書き込み  
+* ESP32S3 DevkitC：[つくるっちexe](https://github.com/sohtamei/TuKuRutchExe)をダウンロード、lovyanGFXs3(UART)又はlovyanGFXs3u(USB)を選択して書き込み  
 * RaspberryPi pico：[pico FW](https://github.com/sohtamei/TuKuRutch.ext/blob/master/libraries/lovyanGFXpico/src/src.ino.uf2)をダウンロードしてbootモードで書き込み  
 
