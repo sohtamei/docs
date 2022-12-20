@@ -34,3 +34,7 @@
 
 * 右上の [緑の旗] ![image](https://user-images.githubusercontent.com/43091864/208554668-733e79bd-e1c9-469d-ab49-dfb16c9cab0f.png) を押して実行
 
+## I2Cセンサ
+
+同様の手順でI2C接続のセンサを使うことができます。  
+<img src="images/microbitI2C3.jpg" width="300">  
