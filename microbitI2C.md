@@ -27,7 +27,8 @@
 * I2C= の部分で "d0 c1 microbit" を選択  
 ![image](https://user-images.githubusercontent.com/43091864/208553803-6c219e16-04c0-481a-9859-a73b2fad671f.png)
 
-* 左端のmicrobitを選択、USBまたはBLEを選択して "接続/切断 .."をクリック。"mbed Serial Port(COM xx)" や "microbit xx" などそれっぽいのを選択して[OK]  
+* 左端のmicrobitを選択、USBまたはBLEを選択して "接続/切断 .."をクリック。<br />
+"mbed Serial Port(COM xx)" や "microbit xx" などそれっぽいのを選択して[OK]  
 ![image](https://user-images.githubusercontent.com/43091864/208554045-2fb50696-d4a7-40d0-98c7-532e6ea722c9.png)  
 ![image](https://user-images.githubusercontent.com/43091864/208554424-4b74c815-70df-4886-b6e0-d1111fff5e30.png)  
 ![image](https://user-images.githubusercontent.com/43091864/208554478-ab35fe27-020e-4ec1-a46c-86e5f9f28b38.png)
