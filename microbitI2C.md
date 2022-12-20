@@ -32,7 +32,8 @@
 ![image](https://user-images.githubusercontent.com/43091864/208554424-4b74c815-70df-4886-b6e0-d1111fff5e30.png)  
 ![image](https://user-images.githubusercontent.com/43091864/208554478-ab35fe27-020e-4ec1-a46c-86e5f9f28b38.png)
 
-* 右上の [緑の旗] ![image](https://user-images.githubusercontent.com/43091864/208554668-733e79bd-e1c9-469d-ab49-dfb16c9cab0f.png) を押して実行
+* 右上の [緑の旗] ![image](https://user-images.githubusercontent.com/43091864/208554668-733e79bd-e1c9-469d-ab49-dfb16c9cab0f.png) を押して実行<br >
+OLED上でアニメが表示されます。
 
 ## I2Cセンサ
 
