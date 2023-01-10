@@ -30,6 +30,8 @@
 
 [つくるっちexe の ArduinoIDE 1.8.11→1.8.19, ESP32 lib 1.0.4→2.0.4更新メモ](ESP32Arduino2.0.4.md)
 
+[ESP32 Flash書き込みlogデータ](https://github.com/sohtamei/esp32burn)
+
 ## USB2BTサポート情報
 
 [USB2BTサポート情報](usb2bt/README.md)
