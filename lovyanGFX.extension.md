@@ -14,5 +14,5 @@
 ### FW
 
 * ESP32/ESP32S3/ESP32C3：アプリで「書き込み」を選択。C3.usbのときは書き込み前にBootモード設定、C3.usb／S3.usbのとき書き込み後にRESET  
-* RaspberryPi pico：[pico FW](https://github.com/sohtamei/TuKuRutch.ext/blob/master/libraries/lovyanGFXpico/src/src.ino.uf2)をダウンロードしてbootモードで書き込み  
+* RaspberryPi pico：[lovyanGFX.pico.uf2](https://sohta02.sakura.ne.jp/tukurutch/static/extensions/lovyanGFX.pico.uf2)をダウンロードしてbootモードで書き込み  
 
