@@ -10,8 +10,6 @@
 
 [360度サーボFS90R問題について](360ServoIssue.md)
 
-[ESP32とNTT光ルーター PR-400MI/RT-400MI/RV-440MI 不具合について](PR400MI_issue.md)
-
 ## つくるっち
 
 [lovyanGFX拡張対応デバイス](lovyanGFX.extension.md)
