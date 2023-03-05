@@ -22,8 +22,6 @@
 
 [アナログリモコン ライブラリ](https://github.com/sohtamei/analogRemote)
 
-[スクラッチとmBlock、つくるっちについて](Scratch_mBlock.md)
-
 [つくるっちでのDTR/RTS制御について](RTS_DTR_Control.md)
 
 [Scratch3.0で独自extensionを使ったサンプルプログラムをリンククリックで開く方法](Scratch3.0LinkToSample.md)
