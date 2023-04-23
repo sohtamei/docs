@@ -42,7 +42,9 @@ full speed接続のBSH4U25との組み合わせで、確認したUSBキーボー
 
 low speedの入力デバイスはBSH4U25経由でPCとenumerationするが、PCからのset addressに1回失敗し、get device descriptorに3回失敗している。
 
+[USBキャプチャデータ全体(excel)](../images/BSH4U25_issue.20230423.xlsx)
+
 ### 補足
 
-BUFFALO社BSH4U25はTT0602A21というUSB2.0 hubのコントローラーICを搭載している。同じTT0602A21を搭載しているUSB2.0 hubであればこの問題が起きる可能性があるが、TT0602A21についての情報や他のhubでの搭載例を見つけることができなかった。  
-USB2BTplusやESP32, RP2040マイコンなどfull speedのUSB OTGコントローラーを搭載したマイコンやデバイスが増えつつあるが、そうしたfull speedのUSB host機器ではBSH4U25を避けた方が良さそう。
+* USB2BTplusやESP32, RP2040マイコンなどfull speedのUSB OTGコントローラーを搭載したマイコンやデバイスが増えつつあるが、そうしたfull speedのUSB host機器ではBSH4U25を避けた方が良さそう。
+* BUFFALO社BSH4U25はTT0602A21というUSB2.0 hubのコントローラーICを搭載している。同じTT0602A21を搭載しているUSB2.0 hubであればこの問題が起きる可能性があるが、TT0602A21についての情報や他のhubでの搭載例を見つけることができなかった。  
