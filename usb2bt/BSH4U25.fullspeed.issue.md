@@ -49,4 +49,4 @@ low speedの入力デバイスはBSH4U25経由でPCとenumerationするが、PC�
 ### 補足
 
 * USB2BTplusやESP32S3, RP2040マイコンなどfull speedのUSB OTGコントローラーを搭載したマイコンやデバイスが増えつつあるが、そうしたfull speedのUSB host機器ではBSH4U25を避けた方が良さそう。
-* BUFFALO社BSH4U25はTT0602A21というUSB2.0 hubのコントローラーICを搭載している。同じTT0602A21を搭載しているUSB2.0 hubであればこの問題が起きる可能性があるが、TT0602A21についての情報や他のhubでの搭載例を見つけることができなかった。  
+* BUFFALO社BSH4U25はTT0602A21というUSB2.0 hubのコントローラーICを搭載している。同じTT0602A21を搭載しているUSB2.0 hubであればこの問題が起きる可能性があるが、TT0602A21についての情報や他のhubでの搭載例を見つけることができなかった。VID=1A40, PID=0101で、"vid_1a40&pid_0101"で検索するとU2H-AN4SBKなどが見つかった。  
