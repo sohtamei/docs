@@ -5,6 +5,8 @@
 [USB2BTplus.zip](http://sohta02.web.fc2.com/release/USB2BTplus.zip)  
 
 ## USB2BTサポート情報
+* [BUFFALO社 BSH4U25のFull Speed動作問題](BSH4U25.fullspeed.issue.md)
+
 * [USB2BTplus キー置換動作確認](CheckReplaceKey.md)  
 
 * [ジェイダブル社キーボード MKBJ24/MKBJ35 とUSB2BTplusとの組み合わせ使用について](MKBJ35.md)  
