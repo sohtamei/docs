@@ -2,7 +2,7 @@
 
 ### 背景
 
-USB2BTplus＋BUFFALO社 BSH4U25(USB2.0 hub)＋USBキーボードの組み合わせで接続できない不具合指摘を頂戴し、解析を行った。  
+USB2BTplus＋BUFFALO社 BSH4U25(USB2.0 hub)＋USBキーボードの組み合わせで接続できない不具合指摘を頂戴し、解析を実施。  
 原因を解析したところ、USB2BTplusの動作に不具合はなく、一方でWindowsPCのUSBポートをFull Speedに制限することで  
 WindowsPC＋BSH4U25＋USBキーボードの組み合わせでも不具合を再現できることが分かった。  
 （USB2BTplusはfull speedとlow speed接続に対応）
