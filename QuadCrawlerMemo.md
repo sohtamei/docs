@@ -11,17 +11,20 @@ https://www.instructables.com/DIY-Spider-RobotQuad-robot-Quadruped/
 
 https://youtu.be/LB8VLnVpoPY?t=331  
 
+https://www.youtube.com/watch?v=HzOQ39LhVOw&feature=emb_logo  
+
 歩いてる時間が短すぎてよく分からず  
 https://youtu.be/ijBc1u1R0ZM?t=17  
 
 クアッドクローラーでの実装テスト  
-[改善前](https://sohtamei.github.io/docs/images/V_20200823_175859.mp4)  
+[改善前(脚引きずり歩行)](https://sohtamei.github.io/docs/images/V_20200823_175859.mp4)  
 
 [3点接地](https://sohtamei.github.io/docs/images/V_20200823_175609.mp4)  
 
 早くならない＆前後左右旋回の方向切り替え時のモーションの繋ぎを実装するのが大変なので断念。  
-3点接地でなく2点接地による歩行改善テスト  
-[2点接地](https://sohtamei.github.io/docs/images/V_20200824_204042.mp4)  
+3点接地でなく2点接地(腹ずり)による歩行改善テスト  
+[改善後(腹ずり歩行)](https://sohtamei.github.io/docs/images/V_20200824_204042.mp4)  
 
+[改善後2(腹ずり歩行)](https://sohtamei.github.io/docs/images/MAH05078s.mp4)  
 
 
