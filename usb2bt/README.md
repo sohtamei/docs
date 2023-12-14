@@ -16,7 +16,7 @@
 * [Quattro TKL](QuattroTKL.md) ver1.004
 
 * iOS & mouse & Non-JP  
-[usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip](https://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip)  
+[usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip](usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip)  
 
 * [Capturing communication log](CapturingCommunicationLog.md)  
 
