@@ -2,7 +2,7 @@
 
 ## 最新版設定アプリ、FW リリース  
 下記のリンクからダウンロードし、zipファイルを展開して下さい。  
-[USB2BTplus.zip](https://sohta02.web.fc2.com/release/USB2BTplus.zip)  
+[USB2BTplus.zip](USB2BTplus.zip)  
 
 ## USB2BTサポート情報
 * [BUFFALO社 BSH4U25のFull Speed動作問題](BSH4U25.fullspeed.issue.md)
