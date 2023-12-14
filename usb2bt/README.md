@@ -2,7 +2,7 @@
 
 ## 最新版設定アプリ、FW リリース  
 下記のリンクからダウンロードし、zipファイルを展開して下さい。  
-[USB2BTplus.zip](http://sohta02.web.fc2.com/release/USB2BTplus.zip)  
+[USB2BTplus.zip](https://sohta02.web.fc2.com/release/USB2BTplus.zip)  
 
 ## USB2BTサポート情報
 * [BUFFALO社 BSH4U25のFull Speed動作問題](BSH4U25.fullspeed.issue.md)
@@ -16,7 +16,7 @@
 * [Quattro TKL](QuattroTKL.md) ver1.004
 
 * iOS & mouse & Non-JP  
-[usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip](http://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip)  
+[usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip](https://sohta02.web.fc2.com/release/usb2btp.220225_a1003_h1003_d0990_iosMouse.burn.zip)  
 
 * [Capturing communication log](CapturingCommunicationLog.md)  
 
