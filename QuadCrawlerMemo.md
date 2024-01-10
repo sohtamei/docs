@@ -6,21 +6,25 @@
 奥側の脚を引きずっている。  
 https://sohtamei.github.io/docs/images/V_20200823_175859.mp4
 <video src="https://sohtamei.github.io/docs/images/V_20200823_175859.mp4" controls></video>
+  
 
 * 3点接地  
 早くならない＆前後左右旋回の方向切り替え時のモーションの繋ぎを実装するのが大変なので断念。  
 https://sohtamei.github.io/docs/images/V_20200823_175609.mp4
 <video src="https://sohtamei.github.io/docs/images/V_20200823_175609.mp4" controls></video>
+  
 
 * 2点接地(腹ずり)による歩行改善テスト１  
 https://sohtamei.github.io/docs/images/V_20200824_204042.mp4
 <video src="https://sohtamei.github.io/docs/images/V_20200824_204042.mp4" controls></video>
+  
 
 * 2点接地(腹ずり)による歩行改善テスト２  
 https://sohtamei.github.io/docs/images/MAH05078s.mp4
-<video src="https://sohtamei.github.io/docs/images/MAH05078s.mp4" controls width="670" height="415"></video>
+<video src="https://sohtamei.github.io/docs/images/MAH05078s.mp4" controls width="894" height="415"></video>
+  
 
-### 脚引きずり歩行、剛性不足により歩かない不具合解析  
+### 改善前の脚引きずり歩行、剛性不足により歩かない不具合解析  
 
 不具合例  
 https://sohtamei.github.io/docs/images/vid_20200312_192803_ac9d0207f7b94s.mp4
