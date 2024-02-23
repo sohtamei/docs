@@ -30,6 +30,8 @@
 
 [QuadClawler歩行改善メモ](QuadCrawlerMemo.md)
 
+[ダンスロボット＆MIDI対応経緯](DanceAndMidiHistory.md)
+
 ## USB2BTサポート情報
 
 [USB2BTサポート情報](usb2bt/README.md)
