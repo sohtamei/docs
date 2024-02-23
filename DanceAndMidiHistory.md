@@ -33,5 +33,5 @@ USB-MIDIプロトコルを使っていますが、MIDIデバイスや音楽機�
 ワークショップの際「楽譜で入力したい」「和音再生したい」というリクエストを多く頂戴したため、つくるっちでのMIDIファイル読み込み・記録・再生に対応しました。  
 [loadMIDサンプル](https://sohta02.sakura.ne.jp/tukurutch/index.html#000002007)
 
-loadMIDでmidiファイルをloadするとdataMIDにMIDIデータを読み込みます。set melodyブロックで光センサオルゴールに書き込むことでMIDIデータを再生することができます。二重和音はブザーを二個にすることで対応しました。同時に２つまでの音しか鳴らせないため、track1の一番高い音とtrack2の一番低い音を再生します。  
+loadMIDでMIDIファイルをロードするとdataMIDにMIDIデータを読み込みます。set melodyブロックで光センサオルゴールに書き込むことでMIDIデータを再生することができます。二重和音はブザーを二個にすることで対応しました。同時に２つまでの音しか鳴らせないため、track1の一番高い音とtrack2の一番低い音を再生します。現在ESP32とPICO(RP2040)対応。  
 <video src="https://sohtamei.github.io/docs/images/MAH07079s.mp4" controls height="400"></video>
