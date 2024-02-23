@@ -26,7 +26,7 @@ USB-MIDIプロトコルを使っていますが、MIDIデバイスや音楽機�
 
 #### 5. つくるっち - MIDIファイル読み込み＆再生対応（光センサオルゴール）  
 つくるっちはパソコンやスマフォからのプログラム実行に対応（オンライン動作）、マイコン単体での実行（スタンドアロン動作）に非対応です。プログラミング学習としては問題ないのですが、工作としては不便です。  
-そのため2023/春のワークショップ「光センサオルゴール」から作成した音楽とLEDの点滅の記録・再生に対応しました。プログラム全体のマイコンへの記録・再生は非対応です。  
+そのため2023/春のワークショップ「光センサオルゴール」では作成した音楽とLEDの点滅の記録・再生に対応しました。スタンドアロン動作は任意の音楽・LED点滅の「光センサオルゴール」固定です、他の機能に変えることは出来ません。  
 [2023御殿山さくらまつり](http://sohta02.web.fc2.com/familyday_event.html#gotenyama2023_1)
 <iframe width="560" height="315" src="https://www.youtube.com/embed/SY_fQ4cUTFA" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
 
