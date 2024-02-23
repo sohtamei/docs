@@ -11,7 +11,7 @@ MikuMikuDanceでモーションを生成し、つくるっちでモーション�
 <video src="https://sohtamei.github.io/docs/images/MAH06392b.mp4" controls height="600"></video>
 
 #### 3. つくるっち - UchiwaFuujinn氏のWebMidi拡張対応  
-UchiwaFuujinn氏のwebMidi拡張を取り込み。使いこなすにはMIDIデバイスが必要で、残念ながらちゃんと使いこなせませんでした。  
+UchiwaFuujinn氏のwebMidi拡張を取り込み。MIDIデバイスが必要で、残念ながらちゃんと使いこなせませんでした。  
 ただ4.の参考になりました。  
 ![image](images/webMidiExt.png)
 
