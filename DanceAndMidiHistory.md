@@ -13,12 +13,12 @@ MikuMikuDanceでモーションを生成し、つくるっちでモーション�
 #### 3. つくるっち - UchiwaFuujinn氏のWebMidi拡張対応  
 UchiwaFuujinn氏のwebMidi拡張を取り込み。使いこなすにはMIDIデバイスが必要で、残念ながらちゃんと使いこなせませんでした。  
 ただ4.の参考になりました。
-![image](https://github.com/sohtamei/docs/blob/master/images/webMidiExt.png)
+![image](images/webMidiExt.png)
 
 #### 4. つくるっち - USBでのandroid/iOS接続対応  
 androidとiOSは通常USB-UARTでUSBケーブル接続することは出来ませんが、（何故か）USB-MIDIだとUSBケーブルで接続することができます（iOSはscrubアプリを使用）。  
 これを利用してandroidとiOSでのUSBケーブル接続に対応しました。windowsPC環境でもUSB-MIDI接続することができます。現在PICO(RP2040)のみ対応、ESP32シリーズは非対応です。  
-![image](https://github.com/sohtamei/docs/blob/master/images/webMidiIF.png)
+![image](images/webMidiIF.png)
 
 (参考) [iPad接続手順、android接続手順](http://sohta02.web.fc2.com/familyday_orgel.html#ipad)  
 
