@@ -16,9 +16,8 @@ UchiwaFuujinn氏のwebMidi拡張を取り込み。MIDIデバイスが必要で�
 ![image](images/webMidiExt.png)
 
 #### 4. つくるっち - USBでのandroid/iOS接続対応  
-androidとiOSは通常USB-UARTプロトコルでUSBケーブル接続することは出来ませんが、（何故か）USB-MIDIプロトコルだとUSBケーブルで接続することができます（iOSはscrubアプリを使用）。  
-これを利用してandroidとiOSでのUSBケーブル接続に対応しました。windowsPC環境でもUSB-MIDI接続することができます。現在PICO(RP2040)のみ対応、ESP32シリーズは非対応です。  
-USB-MIDIプロトコルを使っていますが、MIDIデバイスや音楽機能との直接の関係はありません（つくるっちFWを焼いたマイコンとつくるっちアプリをUSB-MIDIプロトコルで接続）、ややこしいです。  
+つくるっちFWを焼いたマイコンとつくるっちアプリをUSB-MIDIプロトコルで接続します、android/iOS用。MIDIデバイスや音楽機能との直接の関係はありません、ややこしいです。
+android/iOSはUSB-UARTプロトコルでUSBケーブル接続することは出来ませんが、（何故か）USB-MIDIプロトコルだと可能です。（iOSはscrubアプリを使用）これを利用してandroid/iOSでのUSBケーブル接続に対応しました。現在PICO(RP2040)のみ対応、ESP32シリーズは非対応です。  
   
 ![image](images/webMidiIF.png)
 
