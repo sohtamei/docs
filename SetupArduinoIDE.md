@@ -43,13 +43,21 @@ http://sohta02.web.fc2.com/familyday_extension.html#prepare
 WSLコマンドラインで./build.shを実行。target=QuadCrawlerAI、UARTポート=COM20のとき
 ```
 cd TuKuRutch.ext/libraries/
+./build.sh
 usage: build.sh <target> [COM1]
 ./build.sh QuadCrawlerAI COM20
 ```
+robot.jsonからsrc/src.inoを生成し、build＆FW書き込みします。
+**src/src.inoを編集して./build.shを実行すると上書きされます。**
 
 書き込みだけやり直すとき
 ```
 ./burn.sh QuadCrawlerAI COM20
+```
+
+robot.json → src/src.ino自動生成せず、build＆FW書き込みするとき
+```
+./build.sh QuadCrawlerAI COM20
 ```
 
 ### wslでnodejsでエラーになるとき
