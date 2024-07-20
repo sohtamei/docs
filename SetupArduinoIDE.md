@@ -57,7 +57,7 @@ robot.json → src/src.ino自動生成し、build＆FW書き込みします。
 
 robot.json → src/src.ino自動生成せず、build＆FW書き込みするとき
 ```
-./build.sh QuadCrawlerAI COM20
+./build2.sh QuadCrawlerAI COM20
 ```
 
 ### wslでnodejsでエラーになるとき
