@@ -10,7 +10,7 @@ QuadCrawlerAIなどつくるっち用マイコンfirmwareのカスタマイズ�
 
 ### WSL, node.jsインストール
 * windows10,11のPCでWSL(WSL2)とubuntuをインストール  
-https://www.google.com/search?q=wsl+ubuntu+install
+[https://www.google.com/search?q=wsl+ubuntu+install](https://www.google.com/search?q=wsl+ubuntu+install)
 * WSLでnodejsをインストール  
 ```
 sudo apt update
@@ -20,7 +20,7 @@ sudo apt install -y nodejs
 ### つくるっち用ArduinoIDEをダウンロード・展開
 
 C:￥work フォルダを作成してください。（別の名前でもOK。半角英数、スペースなし、10文字以内、C:ドライブ直下）  
-https://sohta02.sakura.ne.jp/release/Arduino.20240720.zip   (3.1GB)  
+[https://sohta02.sakura.ne.jp/release/Arduino.20240720.zip](https://sohta02.sakura.ne.jp/release/Arduino.20240720.zip)   (3.1GB)  
 上記zipファイルをダウンロード＆展開し、得られるArduinoフォルダを上記フォルダに移動してください（C:￥work￥Arduino）。  
 <font color="#0000ff">
 Windowsではファイルのパス長さが260文字以下という制限があるのですが、Arduino-ESP32に含まれるパスの長さが200文字以上あるためです。  
@@ -29,7 +29,7 @@ Windowsではファイルのパス長さが260文字以下という制限があ�
 ### TuKuEutch.extソース取得
 
 githubからfirmwareのソースコードとライブラリ取得。  
-https://github.com/sohtamei/TuKuRutch.ext
+[https://github.com/sohtamei/TuKuRutch.ext](https://github.com/sohtamei/TuKuRutch.ext)
 
 上記をC:￥workにclone。下記のようなフォルダ構成にする。  
 ![image](https://github.com/user-attachments/assets/432cb611-b4cf-41ec-8df1-222194a4a90a)
@@ -37,7 +37,7 @@ https://github.com/sohtamei/TuKuRutch.ext
 ### robot.json編集方法
 
 robot.jsonからsrc.inoとscratch3.0拡張を自動生成します。記述方法は下記ページを参照して下さい。  
-http://sohta02.web.fc2.com/familyday_extension.html#prepare  
+[http://sohta02.web.fc2.com/familyday_extension.html#prepare](http://sohta02.web.fc2.com/familyday_extension.html#prepare)  
 
 ### build&書き込み
 WSLコマンドラインで./build.shを実行。target=QuadCrawlerAI、UARTポート=COM20のとき
