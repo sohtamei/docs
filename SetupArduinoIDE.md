@@ -34,7 +34,7 @@ Windowsではファイルのパス長さが260文字以下という制限があ�
 * 上記をC:￥workにclone。下記のようなフォルダ構成にする。  
 ![image](https://github.com/user-attachments/assets/432cb611-b4cf-41ec-8df1-222194a4a90a)
 
-### robot.json編集方法
+### robot.json編集
 
 * 必要な場合はrobot.jsonを編集、記述方法は下記ページを参照。  
 [http://sohta02.web.fc2.com/familyday_extension.html#prepare](http://sohta02.web.fc2.com/familyday_extension.html#prepare)  
