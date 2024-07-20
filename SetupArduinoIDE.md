@@ -36,7 +36,7 @@ githubからfirmwareのソースコードとライブラリ取得。
 
 ### robot.json編集方法
 
-robot.jsonからsrc.inoとscratch3.0拡張を自動生成します。記述方法は下記ページを参照して下さい。  
+robot.json → src.ino自動生成します。記述方法は下記ページを参照して下さい。  
 [http://sohta02.web.fc2.com/familyday_extension.html#prepare](http://sohta02.web.fc2.com/familyday_extension.html#prepare)  
 
 ### build&書き込み
@@ -47,7 +47,7 @@ cd TuKuRutch.ext/libraries/
 usage: build.sh <target> [COM1]
 ./build.sh QuadCrawlerAI COM20
 ```
-robot.jsonからsrc/src.inoを生成し、build＆FW書き込みします。
+robot.json → src/src.ino自動生成し、build＆FW書き込みします。
 **src/src.inoを編集して./build.shを実行すると上書きされます。**
 
 書き込みだけやり直すとき
