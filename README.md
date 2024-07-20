@@ -12,6 +12,8 @@
 
 ## つくるっち
 
+[つくるっち用ArduinoIDE環境](SetupArduinoIDE.md)
+
 [lovyanGFX拡張対応デバイス](lovyanGFX.extension.md)
 
 [microbit開発環境について(ArduinoIDE、他）](MicrobitDevEnv.md)
