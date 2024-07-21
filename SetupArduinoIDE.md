@@ -1,6 +1,6 @@
 ## つくるっち用ArduinoIDE環境（旧つくるっちEXE）
 
-QuadCrawlerAIなどつくるっち用マイコンfirmwareのカスタマイズ環境です、以前TukurutchExeとして公開していたものです。
+QuadCrawlerAIなどつくるっち用マイコンfirmwareのカスタマイズ環境です、以前つくるっちEXEとして公開していたものです。
 
 * ArduinoIDE 1.8.19  
 * Arduino-ESP32 2.0.9  
@@ -38,7 +38,13 @@ Windowsではファイルのパス長さが260文字以下という制限があ�
 
 * 必要な場合はrobot.jsonを編集、記述方法は下記ページを参照。  
 [http://sohta02.web.fc2.com/familyday_extension.html#prepare](http://sohta02.web.fc2.com/familyday_extension.html#prepare)  
+**つくるっちでQuadCrawlwerAIなど既存のマイコン拡張やscratchサンプルを使う場合はrobot.jsonを編集しないでください。**  
+デフォルトではsrc.update.jsを生成しません。parseRobotJson.js を編集してsrc.update.js生成を有効にし、./build.shして下さい。  
+```
 
+	//fs.writeFileSync(target+'/src/src.update.js', code);
+
+```
 ### build&書き込み
 * robot.json → src/src.ino自動生成し、build＆FW書き込み。  
 target=QuadCrawlerAI、UARTポート=COM20のとき  
@@ -47,6 +53,8 @@ target=QuadCrawlerAI、UARTポート=COM20のとき
 cd TuKuRutch.ext/libraries/
 ./build.sh
 usage: build.sh <target> [COM1]
+```
+```
 ./build.sh QuadCrawlerAI COM20
 ```
 　**src/src.inoを編集後に./build.shを実行すると上書きされます。**
