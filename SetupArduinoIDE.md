@@ -1,4 +1,4 @@
-## つくるっち用ArduinoIDE環境
+## つくるっち用ArduinoIDE環境（旧つくるっちEXE）
 
 QuadCrawlerAIなどつくるっち用マイコンfirmwareのカスタマイズ環境です、以前TukurutchExeとして公開していたものです。
 
