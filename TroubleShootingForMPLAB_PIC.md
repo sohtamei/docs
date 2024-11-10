@@ -7,6 +7,8 @@
 
 * Adbancedモードに切り替えて電源設定を確認  
 ![image](https://github.com/user-attachments/assets/9882b6fb-12a1-4704-a138-28234fce670a)
+![image](https://github.com/user-attachments/assets/5e0de34c-94c7-4f61-be69-1190cb4c35c7)
+
 
 ### エラー "does not exist or is not an executable"
 
