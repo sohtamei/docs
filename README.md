@@ -41,4 +41,3 @@
 ----
 
 [そーたメイ サイト](http://sohta02.web.fc2.com/familyday.html)
-
